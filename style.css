@@ -210,18 +210,9 @@ img {
 }
 
 .box-skills .description-skills {
-  margin-top: 15px;
+  color: hwb(0 100% 0% / 0.3568627450980392);
+  margin-top: 5px;
   margin-bottom: 8px;
-}
-
-.box-skills .text-line2 {
-  position: absolute;
-  background-color: var(--ungu);
-  left: 20px;
-  padding: 1px;
-  padding-right: 65px;
-  margin-top: 1px;
-  border-radius: 50px;
 }
 
 .list-skills {

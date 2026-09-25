@@ -268,6 +268,12 @@ img {
   line-height: 1.4;
 }
 
+.list-project img {
+  width: 100%;
+  aspect-ratio: 9 / 6;
+  object-fit: contain;
+}
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

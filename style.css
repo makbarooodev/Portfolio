@@ -276,6 +276,7 @@ img {
 
 .project-card h4 {
   width: 200px;
+  margin: 15px 0 15px 0;
 }
 
 @media (orientation: landscape) {

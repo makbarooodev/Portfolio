@@ -272,7 +272,8 @@ img {
 }
 
 .project-card {
-  
+  outline: 2px solid white;
+  border-radius: 50px
 }
 
 .project-card h4 {

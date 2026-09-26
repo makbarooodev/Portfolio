@@ -243,7 +243,7 @@ img {
   justify-items: center;
   text-align: center;
   transform: scale(0.85);
-  outline: 1.5px solid var(--ungu-smooth);
+  outline: 1.5px solid var(--ungu-muda);
 }
 
 .skills-card i {

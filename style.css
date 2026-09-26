@@ -286,7 +286,7 @@ img {
 
 .project-card p {
   font-size: 12.5px;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 5px;
 }
 
 .project-card span + span:before {

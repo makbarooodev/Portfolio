@@ -259,11 +259,18 @@ img {
   line-height: 1.4;
 }
 
+.box-project {
+  
+}
+
 .list-project {
   display: flex;
   gap: 15px;
 }
 
+.project-card {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

@@ -286,6 +286,10 @@ img {
   border: 1.5px solid hwb(0 100% 0% / 0.796078431372549);
 }
 
+.project-card img:hover {
+  box-shadow: inset 0 0 30px hwb(277 0% 31% / 0.25);
+}
+
 .project-card h4 {
   width: 200px;
   margin: 10px 0 6px 7px;

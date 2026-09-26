@@ -288,7 +288,7 @@ img {
 
 .project-card img:hover,
 .project-card img:active {
-  transform: scale(2.0);
+  transform: scale(1.1);
 }
 
 .project-card h4 {

@@ -279,7 +279,7 @@ img {
 }
 
 .project-card img {
-  border-radius: 15px
+  border-radius: 15px 15px 5px 5px;
 }
 
 .project-card h4 {

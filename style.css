@@ -259,7 +259,9 @@ img {
   line-height: 1.4;
 }
 
-
+.list-project {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

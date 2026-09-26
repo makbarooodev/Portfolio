@@ -233,10 +233,7 @@ img {
   border-radius: 15px;
   outline: 1.5px solid hwb(0 51% 49% / 0.24705882352941178);
   padding: 15px;
-  margin-top: -10px;
-  margin-bottom: -5px;
-  margin-left: -21px;
-  margin-right: -15px;
+  margin: -10px -15px -5px -21px;
   transform: scale(0.8);
   scroll-snap-align: center;
 }

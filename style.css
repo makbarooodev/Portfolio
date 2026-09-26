@@ -272,7 +272,6 @@ img {
 }
 
 .project-card {
-  outline: 1.5px solid hwb(286 78% 0% / 0.6392156862745098);
   border-radius: 15px;
   padding: 0 0 5px 0;
   margin: 10px 0 10px 0;

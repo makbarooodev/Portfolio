@@ -277,7 +277,7 @@ img {
   overflow-y: hidden;
   display: flex;
   gap: 15px;
-  background-color: black;
+  background-color: lab(0% 0 0 / 0.5019607843137255);
 }
 
 .project-card {

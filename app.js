@@ -1,7 +1,9 @@
 const projects = [
   "https://makbarooodev.page.gd/",
-  "https://example-project-2.com/",
-  "https://example-project-3.com/"
+  "https://makbarooodev.page.gd/",
+  "https://makbarooodev.page.gd/",
+  "https://makbarooodev.page.gd/",
+  "https://makbarooodev.page.gd/"
 ];
 
 const imgs = document.querySelectorAll(".preview");

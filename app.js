@@ -14,5 +14,3 @@ imgs.forEach((img, index) => {
     encodeURIComponent(projects[index]) +
     "&width=1280&height=720&format=png";
 });
-
-https://api.webstractor.com/v1/screenshot?url=https://makbarooodev.page.gd&width=1280&height=720&format=png

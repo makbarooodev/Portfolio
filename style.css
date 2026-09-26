@@ -290,6 +290,7 @@ img {
   border-radius: 10px;
   border-bottom: 1px solid white;
   border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 .project-card h4 {

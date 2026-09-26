@@ -286,8 +286,8 @@ img {
   border: 1.5px solid hwb(0 100% 0% / 0.796078431372549);
 }
 
-.project-card img:hover {
-.project-card img:hover {
+.project-card img:hover,
+.project-card img:active {
   transform: scale(2.0);
 }
 

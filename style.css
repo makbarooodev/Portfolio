@@ -219,7 +219,7 @@ img {
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;
-  gap: 15px;
+  gap: 5px;
   padding: 0;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;

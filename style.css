@@ -264,6 +264,8 @@ img {
 }
 
 .list-project {
+  overflow-x: auto;
+  overflow-y: hidden;
   display: flex;
   gap: 15px;
 }

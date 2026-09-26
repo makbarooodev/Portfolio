@@ -273,6 +273,7 @@ img {
 }
 
 .list-project {
+  margin-top: 7px;
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;

@@ -242,7 +242,7 @@ img {
 .skills-card:hover {
   justify-items: center;
   text-align: center;
-  transform: scale(0.8.8);
+  transform: scale(0.88);
 }
 
 .skills-card i {

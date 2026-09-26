@@ -220,7 +220,7 @@ img {
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;
-  gap: 1px;
+  gap: 5px;
   padding: 0;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -238,7 +238,7 @@ img {
   padding: 15px;
   margin-top: -10px;
   margin-bottom: -5px;
-  margin-left: -150px;
+  margin-left: -8px;
   transform: scale(0.8);
   scroll-snap-align: center;
 }

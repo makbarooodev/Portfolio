@@ -244,6 +244,7 @@ img {
   text-align: center;
   transform: scale(0.85);
   outline: 1.5px solid var(--ungu-smooth);
+  transform: scaleX(0);
 }
 
 .skills-card i {

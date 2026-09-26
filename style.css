@@ -260,7 +260,8 @@ img {
 }
 
 .list-project {
-  
+  display: flex;
+  gap: 15px;
 }
 
 @media (orientation: landscape) {

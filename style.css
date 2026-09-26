@@ -264,7 +264,9 @@ img {
   margin-top: 20px;
 }
 
-
+.box-project .header-project {
+  margin-left: 20px;
+}
 
 .list-project {
   overflow-x: auto;

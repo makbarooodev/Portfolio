@@ -279,6 +279,10 @@ img {
   margin: 10px 0 10px 0;
 }
 
+.project-card p {
+  font-size: 12.5px;
+}
+
 .project-card span + span:before {
   content: "•";
   margin: 0 12px 0 10px;

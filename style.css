@@ -272,7 +272,7 @@ img {
 }
 
 .project-card {
-  outline: 1.5px solid var(--ungu-tua);
+  outline: 1.5px solid var(--ungu-smooth);
   border-radius: 15px;
   padding: 0 0 5px 0;
   margin: 10px 0 10px 0;

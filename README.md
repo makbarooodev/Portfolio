@@ -16,14 +16,15 @@ Currently exploring HTML, CSS, and JavaScript while building projects to strengt
 
 ![Website Preview](https://api.webstractor.com/v1/screenshot?url=https://makbarooodev.page.gd&width=1280&height=720&format=png)
 
+A personal portfolio website showcasing my profile, projects, learning journey, and experiments in web development.
+
 ### Project Name
-Deskripsi singkat.
-Tech: HTML, CSS, JavaScript
-[Live Demo] [Source Code]
+
+Personal Website - Muhammad Akbar Oktabian 
 
 ## Skills
 
-HTML • CSS • JavaScript • Git • GitHub
+HTML • CSS • JavaScript • GitHub
 
 ## Services
 

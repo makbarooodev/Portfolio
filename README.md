@@ -1,7 +1,7 @@
 # Muhammad Akbar Oktabian
 
 > Beginner Web Developer
-> HTML • CSS • JavaScript
+ HTML • CSS • JavaScript
 
 🌐 Live Website 
 🔗 Repository 

@@ -273,7 +273,7 @@ img {
 
 .project-card {
   outline: 2px solid white;
-  border-radius: 15px;
+  border-radius: 15px 15px ;
   padding: 0 0 5px 0;
   margin: 10px 0 10px 0;
 }

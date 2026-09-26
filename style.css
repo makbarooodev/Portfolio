@@ -220,7 +220,7 @@ img {
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;
-  gap: 5px;
+  gap: 1px;
   padding: 0;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;

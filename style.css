@@ -264,7 +264,6 @@ img {
 }
 
 .list-project {
-  outline: 2px solid white;
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;

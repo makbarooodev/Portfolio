@@ -259,6 +259,8 @@ img {
   line-height: 1.4;
 }
 
+
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

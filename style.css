@@ -272,6 +272,10 @@ img {
   
 }
 
+.project-card h4 {
+  width: 200px;
+}
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

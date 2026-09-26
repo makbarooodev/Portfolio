@@ -271,7 +271,7 @@ img {
 }
 
 .project-card {
-  
+  outline: 2px solid white;
 }
 
 .project-card h4 {

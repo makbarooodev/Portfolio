@@ -274,7 +274,8 @@ img {
 .project-card {
   border-radius: 15px;
   padding: 0 0 5px 0;
-  margin: 10px 0 10px 0;
+  margin: 10px 10px 10px 0
+  10px;
 }
 
 .project-card img {

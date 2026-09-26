@@ -20,6 +20,10 @@
   color: white;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 html, body {
   background-color: var(--hitam);
   overflow-x: hidden;

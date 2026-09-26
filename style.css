@@ -119,8 +119,7 @@ img {
 }
 
 .box-text-header .name {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px 0;
   font-size: 20px;
 }
 

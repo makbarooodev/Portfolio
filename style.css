@@ -216,6 +216,7 @@ img {
 }
 
 .list-skills {
+  outline: 2px solid red;
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;

@@ -188,8 +188,7 @@ img {
   position: absolute;
   background-color: var(--ungu);
   left: -1px;
-  padding: 1px;
-  padding-right: 50px;
+  padding: 1px 50px 1px 1px;
   margin-top: 1px;
   border-radius: 50px;
 }

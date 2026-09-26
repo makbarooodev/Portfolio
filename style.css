@@ -311,7 +311,7 @@ img {
 }
 
 .project-card p {
-  color: hwb(0 100% 0% / 0.3843137254901961);
+  color: lab(0% 0 0 / 0);
   font-size: 10px;
   margin: 0 0 0 7px;
 }

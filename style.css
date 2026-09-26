@@ -44,8 +44,7 @@ main {
 .space-navigation {
   position: relative;
   height: auto;
-  padding: 10px;
-  padding-bottom: 35px;
+  padding: 10px 10px 35px;
   background-color: var(--hitam);
   border-bottom: 1px solid var(--ungu);
   mask-image: linear-gradient(

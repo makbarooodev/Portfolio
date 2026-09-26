@@ -271,7 +271,7 @@ img {
 }
 
 .box-project .description-project {
-  color: white;
+  color: hwb(0 100% 0% / 0.403921568627451);
   margin: 10px 0 20px 20px;
 }
 

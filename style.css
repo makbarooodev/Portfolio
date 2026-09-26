@@ -203,11 +203,11 @@ img {
   margin-top: 20px;
 }
 
-.box-skills .header-skills {
+.header-skills {
   position: relative;
 }
 
-.box-skills .description-skills {
+.description-skills {
   color: hwb(0 100% 0% / 0.3568627450980392);
   margin-top: 5px;
   margin-bottom: 8px;

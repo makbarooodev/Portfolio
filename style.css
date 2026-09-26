@@ -133,8 +133,7 @@ img {
 }
 
 .box-text-header .info {
-  margin-top: 10px;
-  margin-left: 110px;
+  margin: 10px 0 0 110px;
   font-size: 15px;
 }
 

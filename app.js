@@ -1,5 +1,14 @@
-const img = document.querySelectorAll(".preview");
+const projects = [
+  "https://makbarooodev.page.gd/",
+  "https://example-project-2.com/",
+  "https://example-project-3.com/"
+];
 
-img.src =
-  "https://api.webstractor.com/v1/screenshot?url=https%3A%2F%2Fmakbarooodev.page.gd%2F&width=1280&height=720&format=png&t=" +
-  Date.now();
+const imgs = document.querySelectorAll(".preview");
+
+imgs.forEach((img, index) => {
+  img.src =
+    "https://api.webstractor.com/v1/screenshot?url=" +
+    encodeURIComponent(projects[index]) +
+    "&width=1280&height=720&format=png";
+});

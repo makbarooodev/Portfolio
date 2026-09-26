@@ -232,7 +232,7 @@ img {
 .skills-card {
   background-color: lab(0% 0 0 / 0.35294117647058826);
   box-shadow: 2.5px 2.5px 10px black;
-  border-radius: 20px;
+  border-radius: 15px;
   outline: 1.5px solid hwb(0 51% 49% / 0.24705882352941178);
   padding: 15px;
   margin-top: 10px;

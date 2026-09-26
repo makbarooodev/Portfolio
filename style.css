@@ -291,7 +291,7 @@ img {
 .project-card img:active {
   transform: scale(1.0);
   filter: blur(2.5px);
-  border: 0px solid white;
+  border: none;
 }
 
 .project-card h4 {

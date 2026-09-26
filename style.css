@@ -244,6 +244,10 @@ img {
   display: block;
 }
 
+.skills-card:hover {
+  justify-items: center;
+}
+
 .skills-card h4 {
   width: 200px;
   margin: 10px 0;

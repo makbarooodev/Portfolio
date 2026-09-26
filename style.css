@@ -273,7 +273,6 @@ img {
 }
 
 .list-project {
-  margin-top: 7px;
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;
@@ -288,6 +287,7 @@ img {
 }
 
 .project-card img {
+  margin-top: 7px;
   border-radius: 10px;
   border: 1.5px solid hwb(0 100% 0% / 0.796078431372549);
 }

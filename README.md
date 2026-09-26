@@ -14,7 +14,7 @@ Currently exploring HTML, CSS, and JavaScript while building projects to strengt
 
 ## Project
 
-Screenshot / preview project
+![Website Preview](https://api.webstractor.com/v1/screenshot?url=https://makbarooodev.page.gd&width=1280&height=720&format=png)
 
 ### Project Name
 Deskripsi singkat.

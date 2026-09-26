@@ -18,6 +18,7 @@
   box-sizing: border-box;
   user-select: none;
   color: white;
+  scrollbar-width: none;
 }
 
 *::-webkit-scrollbar {

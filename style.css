@@ -279,7 +279,7 @@ img {
 
 .project-card img {
   box-shadow: 5px 5px 100px black;
-  border-radius: 15px 15px 5px 5px;
+  border-radius: 15px;
   border-bottom: 2px solid white;
   border-left: 1px solid white;
 }

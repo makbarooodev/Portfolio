@@ -279,6 +279,10 @@ img {
   margin: 10px 0 10px 0;
 }
 
+.project-card span + span:after {
+  content: "•";
+}
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

@@ -288,9 +288,7 @@ img {
 
 .project-card img {
   border-radius: 10px;
-  border-bottom: 2px solid white;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border: 1.5px solid white;
 }
 
 .project-card h4 {

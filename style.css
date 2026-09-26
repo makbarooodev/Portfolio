@@ -277,6 +277,7 @@ img {
   overflow-y: hidden;
   display: flex;
   gap: 15px;
+  background-color: black;
 }
 
 .project-card {
@@ -286,7 +287,6 @@ img {
 }
 
 .project-card img {
-  box-shadow: 5px 5px 100px black;
   border-radius: 15px;
   border-bottom: 2px solid white;
 }

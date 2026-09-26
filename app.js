@@ -3,7 +3,7 @@ const projects = [
   "https://makbarooodev.page.gd/",
   "https://makbarooodev.page.gd/",
   "https://makbarooodev.page.gd/",
-  "https://makbarooodev.page.gd/"
+  "https://makbarooodev.netlify.app/"
 ];
 
 const imgs = document.querySelectorAll(".preview");

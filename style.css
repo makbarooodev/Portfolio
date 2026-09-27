@@ -300,13 +300,12 @@ img {
   margin-top: 7px;
   border-radius: 10px;
   transition: 0.3s;
-  border: 
 }
 
 .project-card img:hover,
 .project-card img:active {
   transform: scale(1.1);
-  border: 1.5px solid white;
+  outline: 1.5px solid white;
 }
 
 .project-card h4 {

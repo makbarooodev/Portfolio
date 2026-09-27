@@ -365,4 +365,8 @@ img {
   .box-text-header .hello {
   font-size: 20px;
   }
+
+  .box-text-header .name {
+  font-size: 25px;
+  }
 }

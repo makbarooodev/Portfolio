@@ -327,7 +327,8 @@ img {
 }
 
 .box-footer img {
-  
+  width: 150px;
+  height: auto;
 }
 
 @media (orientation: landscape) {

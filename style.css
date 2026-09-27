@@ -347,7 +347,7 @@ small {
   width: 100%;
   position: fixed;
   bottom: 0;
-  right: 12px;
+  right: 5px;
 }
 
 @media (orientation: landscape) {

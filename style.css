@@ -322,6 +322,10 @@ img {
   margin: 0 12px 0 10px;
 }
 
+.box-footer {
+  align-items: center;
+}
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

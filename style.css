@@ -330,6 +330,7 @@ img {
 
 .box-footer img {
   position: absolute;
+  right: 10px;
   width: 150px;
   height: auto;
 }

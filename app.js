@@ -17,31 +17,18 @@ imgs.forEach((img, index) => {
 
 const carousel = document.querySelector(".list-project");
 
-// Simpan card asli
-const cards = [...carousel.children];
-
-// Gandakan otomatis
-cards.forEach(card => {
-  carousel.appendChild(card.cloneNode(true));
-});
-
-let position = 0;
+// Gandakan semua card
+carousel.innerHTML += carousel.innerHTML;
 
 setInterval(() => {
-  position += 200;
-
-  carousel.scrollTo({
-    left: position,
+  carousel.scrollBy({
+    left: 200,
     behavior: "smooth"
   });
 
-  // Setelah melewati kumpulan pertama,
-  // pindahkan posisi tanpa mengubah tampilan
-  if (position >= carousel.scrollWidth / 2) {
-    position = 0;
-
-    setTimeout(() => {
-      carousel.scrollLeft = 0;
-    }, 500);
+  // Kalau sudah melewati setengah carousel,
+  // kembali ke posisi awal tanpa terlihat
+  if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
+    carousel.scrollLeft = 0;
   }
 }, 5000);

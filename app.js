@@ -28,7 +28,7 @@ setInterval(() => {
     });
   } else {
     carousel.scrollBy({
-      left: carousel.scrollLeft + 200,
+      left: carousel.scrollLeft + 250,
       behavior: "smooth"
     });
   }

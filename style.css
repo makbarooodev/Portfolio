@@ -323,7 +323,7 @@ img {
 }
 
 .box-footer {
-  align-items: ;
+  outline: 2px solid red;
 }
 
 @media (orientation: landscape) {

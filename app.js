@@ -27,7 +27,7 @@ setInterval(() => {
       behavior: "smooth"
     });
   } else {
-    carousel.scrollTo({
+    carousel.scrollBy({
       left: carousel.scrollLeft + 200,
       behavior: "smooth"
     });

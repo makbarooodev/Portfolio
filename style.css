@@ -288,7 +288,7 @@ img {
   background-color: lab(0% 0 0 / 0.3764705882352941);
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  animation: geser 10s linear infinite;
+  
 }
 
 .project-card {
@@ -296,6 +296,7 @@ img {
   padding: 0 0 5px 0;
   margin: 10px 12.5px 10px;
   scroll-snap-align: center;
+  animation: geser 10s linear infinite;
 }
 
 .project-card img {

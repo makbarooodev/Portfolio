@@ -15,20 +15,15 @@ imgs.forEach((img, index) => {
     "&width=1280&height=720&format=png";
 });
 
-const carousel = document.querySelector(".list-project");
-
-// Gandakan semua card
-carousel.innerHTML += carousel.innerHTML;
+const carousel = document.querySelector(".project-container");
 
 setInterval(() => {
-  carousel.scrollBy({
-    left: 200,
-    behavior: "smooth"
-  });
-
-  // Kalau sudah melewati setengah carousel,
-  // kembali ke posisi awal tanpa terlihat
-  if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
+  if (
+    carousel.scrollLeft + carousel.clientWidth >=
+    carousel.scrollWidth
+  ) {
     carousel.scrollLeft = 0;
+  } else {
+    carousel.scrollLeft += 0;
   }
-}, 5000);
+}, 2000);

@@ -336,6 +336,7 @@ img {
 }
 
 .box-footer .box-media {
+  position: absolute;
   right: 160;
 }
 

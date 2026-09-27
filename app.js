@@ -31,4 +31,4 @@ setInterval(() => {
   if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
     carousel.scrollLeft = 0;
   }
-}, 5000);
+}, 8000);

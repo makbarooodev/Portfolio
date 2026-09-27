@@ -280,6 +280,7 @@ img {
 }
 
 .list-project {
+  width: max-content;
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;

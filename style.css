@@ -323,7 +323,7 @@ img {
 }
 
 .box-footer img {
-  align-items: center;
+  justify-content: center;
   width: 200px;
   height: auto;
 }

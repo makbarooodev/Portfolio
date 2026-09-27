@@ -348,6 +348,7 @@ small {
   position: fixed;
   bottom: 0;
   margin-bottom: 5px;
+  padding: 5px;
   right: 1px;
 }
 

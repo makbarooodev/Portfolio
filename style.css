@@ -334,7 +334,7 @@ img {
 }
 
 .box-footer a {
-  
+  letter-spacing: 20px;
 }
 
 @media (orientation: landscape) {

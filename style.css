@@ -374,5 +374,8 @@ img {
     font-size: 20px;
   }
 
-  .box-text-header 
+  .box-text-header .info {
+    margin: 0;
+    font-size: 20px;
+  }
 }

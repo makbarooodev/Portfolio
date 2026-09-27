@@ -304,7 +304,6 @@ img {
 
 .project-card img:hover,
 .project-card img:active {
-  transform: scale(1.0);
   border: 1.5px solid white;
 }
 

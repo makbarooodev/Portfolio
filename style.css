@@ -300,6 +300,7 @@ img {
   margin-top: 7px;
   border-radius: 10px;
   transition: 0.3s;
+  outline: 1.5px solid lab(0% 0 0 / 0);
 }
 
 .project-card img:hover,

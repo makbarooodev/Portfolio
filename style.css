@@ -338,6 +338,8 @@ img {
   letter-spacing: 50px;
 }
 
+
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

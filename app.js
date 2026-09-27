@@ -22,8 +22,14 @@ setInterval(() => {
     carousel.scrollLeft + carousel.clientWidth >=
     carousel.scrollWidth
   ) {
-    carousel.scrollLeft = 0;
+    carousel.scrollTo({
+      left: 0,
+      behavior: "smooth"
+    });
   } else {
-    carousel.scrollLeft += 200;
+    carousel.scrollTo({
+      left: carousel.scrollLeft + 200,
+      behavior: "smooth"
+    });
   }
 }, 5000);

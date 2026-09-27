@@ -15,33 +15,3 @@ imgs.forEach((img, index) => {
     "&width=1280&height=720&format=png";
 });
 
-const carousel = document.querySelector(".list-project");
-
-// Simpan card asli
-const cards = [...carousel.children];
-
-// Gandakan otomatis
-cards.forEach(card => {
-  carousel.appendChild(card.cloneNode(true));
-});
-
-let position = 0;
-
-setInterval(() => {
-  position += 200;
-
-  carousel.scrollTo({
-    left: position,
-    behavior: "smooth"
-  });
-
-  // Setelah melewati kumpulan pertama,
-  // pindahkan posisi tanpa mengubah tampilan
-  if (position >= carousel.scrollWidth / 2) {
-    position = 0;
-
-    setTimeout(() => {
-      carousel.scrollLeft = 0;
-    }, 500);
-  }
-}, 5000);

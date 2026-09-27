@@ -322,6 +322,11 @@ img {
   margin: 0 12px 0 10px;
 }
 
+.box-footer {
+  display: flex;
+  justify-content: center;
+}
+
 .box-footer img {
   justify-content: center;
   width: 200px;

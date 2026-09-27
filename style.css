@@ -353,6 +353,16 @@ img {
   right: 1px;
 }
 
+@keyframes geser {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

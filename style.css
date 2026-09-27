@@ -323,11 +323,13 @@ img {
 }
 
 .box-footer {
+  position: relativ;
   padding: 0;
   margin: 0;
 }
 
 .box-footer img {
+  position: absolute;
   width: 150px;
   height: auto;
 }

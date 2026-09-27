@@ -14,3 +14,16 @@ imgs.forEach((img, index) => {
     encodeURIComponent(projects[index]) +
     "&width=1280&height=720&format=png";
 });
+
+const carousel = document.querySelector(".list-project");
+
+setInterval(() => {
+  if (
+    carousel.scrollLeft + carousel.clientWidth >=
+    carousel.scrollWidth
+  ) {
+    carousel.scrollLeft = 0;
+  } else {
+    carousel.scrollLeft += 320;
+  }
+}, 2000);

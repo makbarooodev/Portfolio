@@ -24,6 +24,6 @@ setInterval(() => {
   ) {
     carousel.scrollLeft = 0;
   } else {
-    carousel.scrollLeft += 100;
+    carousel.scrollLeft += 200;
   }
 }, 2000);

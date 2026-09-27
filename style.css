@@ -322,23 +322,7 @@ img {
   margin: 0 12px 0 10px;
 }
 
-.box-footer {
-  position: relativ;
-  padding: 0;
-  margin: 0;
-}
 
-.box-footer img {
-  position: absolute;
-  right: 160px;
-  width: 150px;
-  height: auto;
-}
-
-.box-footer .list-media {
-  position: absolute;
-  right: 160;
-}
 
 @media (orientation: landscape) {
   .box-header img {

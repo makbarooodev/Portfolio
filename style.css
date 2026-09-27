@@ -344,6 +344,8 @@ img {
 
 small {
   background-color: var(--hitam);
+  position: fixed;
+  bottom: 0;
 }
 
 @media (orientation: landscape) {

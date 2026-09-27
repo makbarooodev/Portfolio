@@ -344,6 +344,7 @@ img {
 
 small {
   background-color: var(--hitam);
+  width: 100%;
   position: fixed;
   bottom: 0;
 }

@@ -362,5 +362,8 @@ img {
     right: 50px;
   }
 
-  
+  .box-text-header .hello {
+  color: var(--ungu-smooth);
+  font-weight: bold;
+}
 }

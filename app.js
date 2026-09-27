@@ -15,3 +15,20 @@ imgs.forEach((img, index) => {
     "&width=1280&height=720&format=png";
 });
 
+const carousel = document.querySelector(".list-project");
+
+// Gandakan semua card
+carousel.innerHTML += carousel.innerHTML;
+
+setInterval(() => {
+  carousel.scrollBy({
+    left: 200,
+    behavior: "smooth"
+  });
+
+  // Kalau sudah melewati setengah carousel,
+  // kembali ke posisi awal tanpa terlihat
+  if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
+    carousel.scrollLeft = 0;
+  }
+}, 5000);

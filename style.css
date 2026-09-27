@@ -322,8 +322,9 @@ img {
   margin: 0 12px 0 10px;
 }
 
-.box-footer {
-  outline: 2px solid red;
+.box-footer img {
+  width: 200px;
+  height: auto;
 }
 
 @media (orientation: landscape) {

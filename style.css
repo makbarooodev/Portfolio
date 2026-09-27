@@ -302,7 +302,6 @@ img {
 .project-card img:hover,
 .project-card img:active {
   transform: scale(1.0);
-  filter: blur(2.5px);
   border: none;
 }
 

@@ -344,7 +344,6 @@ img {
 
 small {
   background-color: var(--hitam);
-  text-align: center;
 }
 
 @media (orientation: landscape) {

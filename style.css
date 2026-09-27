@@ -363,7 +363,6 @@ img {
   }
 
   .box-text-header .hello {
-  color: var(--ungu-smooth);
-  font-weight: bold;
+  font-size: 12px;
   }
 }

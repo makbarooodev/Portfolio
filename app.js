@@ -29,8 +29,6 @@ imgs.forEach((img, index) => {
 
 const carousel = document.querySelector(".list-project");
 
-carousel.innerHTML += carousel.innerHTML;
-
 setInterval(() => {
   carousel.scrollBy({
     left: 200,

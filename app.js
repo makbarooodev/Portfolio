@@ -7,7 +7,7 @@ if (cintaAbai == cintNupie)
 }
 else 
 {
-   
+  alert('Maaf berarti kita bukan jodoh :(') 
 }
 
 const projects = [

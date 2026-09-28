@@ -10,7 +10,7 @@ let hari = [
   'sabtu'
 ]
 
-alert(`Hari ini adalah hari ${hari}`)
+alert(`Hari ini adalah hari ${hari[hari]}`)
 
 const projects = [
   "https://makbarooodev.page.gd/",

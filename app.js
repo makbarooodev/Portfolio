@@ -1,4 +1,4 @@
-alert()
+alert("Halo sigma?")
 
 const projects = [
   "https://makbarooodev.page.gd/",

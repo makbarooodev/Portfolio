@@ -1,4 +1,4 @@
-let cintaAbai = 
+let cintaAbai = prompt
 
 const projects = [
   "https://makbarooodev.page.gd/",

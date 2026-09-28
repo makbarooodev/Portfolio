@@ -21,21 +21,20 @@ imgs.forEach(async (img, index) => {
   try {
     const response = await fetch(endpoint, {
       headers: {
-        Authorization: "Bearer ext_live_KUOV3rZ8tAkGNcq1Ho0tCWhG"
+        Authorization: "Bearer APIKEY_SAYA"
       }
     });
 
-    console.log("status:", response.status);
-    console.log("cache:", response.headers.get("X-Webstractor-Cache"));
-
     if (!response.ok) {
-      console.error(await response.text());
+      img.alt = `Error ${response.status}`;
       return;
     }
 
     const blob = await response.blob();
+
     img.src = URL.createObjectURL(blob);
+
   } catch (error) {
-    console.error("Screenshot gagal:", error);
+    img.alt = "Gagal mengambil screenshot";
   }
 });

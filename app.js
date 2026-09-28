@@ -8,10 +8,29 @@ const projects = [
 
 const imgs = document.querySelectorAll(".preview");
 
-imgs.forEach((img, index) => {
-  img.src =
-    "https://api.webstractor.com/v1/screenshot?url=" +
-    encodeURIComponent(projects[index]) +
-    "&api_key=ext_live_KUOV3rZ8tAkGNcq1Ho0tCWhG&width=1280&height=720&format=png";
+imgs.forEach(async (img, index) => {
+  const url = new URL(
+    "https://api.webstractor.com/v1/screenshot"
+  );
+
+  url.searchParams.set("url", projects[index]);
+  url.searchParams.set("width", "1280");
+  url.searchParams.set("height", "720");
+  url.searchParams.set("format", "png");
+
+  const response = await fetch(url, {
+    headers: {
+      Authorization: "Bearer APIKEY_SAYA"
+    }
+  });
+
+  if (!response.ok) {
+    console.error(`Project ${index + 1}:`, response.status);
+    return;
+  }
+
+  const blob = await response.blob();
+
+  img.src = URL.createObjectURL(blob);
 });
 

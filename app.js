@@ -34,8 +34,6 @@ setInterval(() => {
     behavior: "smooth"
   });
 
-  // Kalau sudah melewati setengah carousel,
-  // kembali ke posisi awal tanpa terlihat
   if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
     carousel.scrollLeft = 0;
   }

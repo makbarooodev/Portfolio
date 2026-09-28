@@ -7,7 +7,7 @@ if (cintaAbai == cintNupie)
 }
 else 
 {
-  
+   
 }
 
 const projects = [

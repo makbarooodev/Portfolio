@@ -12,6 +12,6 @@ imgs.forEach((img, index) => {
   img.src =
     "https://api.webstractor.com/v1/screenshot?url=" +
     encodeURIComponent(projects[index]) +
-    "&width=1280&height=720&format=png";
+    "&api_key=&width=1280&height=720&format=png";
 });
 

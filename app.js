@@ -2,6 +2,7 @@ let hari = new Date().getDate()
 
 hari[1] = 'senin'
 hari[2] = 'selasa'
+hari[3] = 'rabu'
 
 const projects = [
   "https://makbarooodev.page.gd/",

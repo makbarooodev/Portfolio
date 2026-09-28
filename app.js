@@ -1,4 +1,4 @@
-alert("Halo sigma?")
+let saldoAwal = prompt()
 
 const projects = [
   "https://makbarooodev.page.gd/",

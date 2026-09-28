@@ -1,17 +1,3 @@
-let nomorHari = new Date().getDay()
-
-let hari = [
-  'minggu',
-  'senin',
-  'selasa',
-  'rabu',
-  'kamis',
-  'jumat',
-  'sabtu'
-]
-
-alert(`Hari ini adalah hari ${hari[nomorHari]}`)
-
 const projects = [
   "https://makbarooodev.page.gd/",
   "https://makbarooodev.page.gd/",

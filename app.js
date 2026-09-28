@@ -4,7 +4,7 @@ let saldoAkhir
 
 saldoAkhir = saldoAwal - saldoTerpakai
 
-
+alert('')
 
 const projects = [
   "https://makbarooodev.page.gd/",

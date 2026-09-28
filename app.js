@@ -1,15 +1,3 @@
-let cintaAbai = prompt('Cinta abai berapa persen?')
-let cintNupie = prompt('Cinta nupie berapa persen?')
-
-if (cintaAbai == cintaNupie) 
-{
-  alert('Kita pacaran')
-}
-else 
-{
-  alert('Maaf berarti kita bukan jodoh :(') 
-}
-
 const projects = [
   "https://makbarooodev.page.gd/",
   "https://makbarooodev.page.gd/",

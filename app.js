@@ -20,7 +20,7 @@ imgs.forEach(async (img, index) => {
 
   const response = await fetch(url, {
     headers: {
-      Authorization: "Bearer APIKEY_SAYA"
+      Authorization: "Bearer ext_live_KUOV3rZ8tAkGNcq1Ho0tCWhG"
     }
   });
 

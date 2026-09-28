@@ -3,6 +3,9 @@ let cintNupie = prompt('Cinta nupie berapa persen?')
 
 if (cintaAbai == cintNupie) 
 {
+  alert('Kita pacaran')
+}
+else {
   
 }
 

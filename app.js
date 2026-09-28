@@ -9,28 +9,33 @@ const projects = [
 const imgs = document.querySelectorAll(".preview");
 
 imgs.forEach(async (img, index) => {
-  const url = new URL(
+  const endpoint = new URL(
     "https://api.webstractor.com/v1/screenshot"
   );
 
-  url.searchParams.set("url", projects[index]);
-  url.searchParams.set("width", "1280");
-  url.searchParams.set("height", "720");
-  url.searchParams.set("format", "png");
+  endpoint.searchParams.set("url", projects[index]);
+  endpoint.searchParams.set("width", "1280");
+  endpoint.searchParams.set("height", "720");
+  endpoint.searchParams.set("format", "png");
 
-  const response = await fetch(url, {
-    headers: {
-      Authorization: "Bearer ext_live_KUOV3rZ8tAkGNcq1Ho0tCWhG"
+  try {
+    const response = await fetch(endpoint, {
+      headers: {
+        Authorization: "Bearer "
+      }
+    });
+
+    console.log("status:", response.status);
+    console.log("cache:", response.headers.get("X-Webstractor-Cache"));
+
+    if (!response.ok) {
+      console.error(await response.text());
+      return;
     }
-  });
 
-  if (!response.ok) {
-    console.error(`Project ${index + 1}:`, response.status);
-    return;
+    const blob = await response.blob();
+    img.src = URL.createObjectURL(blob);
+  } catch (error) {
+    console.error("Screenshot gagal:", error);
   }
-
-  const blob = await response.blob();
-
-  img.src = URL.createObjectURL(blob);
 });
-

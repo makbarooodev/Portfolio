@@ -3,8 +3,12 @@ let hari = new Date().getDate()
 hari[1] = 'senin'
 hari[2] = 'selasa'
 hari[3] = 'rabu'
-hari[3] = 'rabu'
-hari[3] = 'rabu'
+hari[4] = 'kamis'
+hari[5] = 'jumat'
+hari[6] = 'sabtu'
+hari[7] = 'minggu'
+
+alert(`Hari ini adalab hari ${hari}`)
 
 const projects = [
   "https://makbarooodev.page.gd/",

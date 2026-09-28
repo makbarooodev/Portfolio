@@ -24,6 +24,6 @@ imgs.forEach((img, index) => {
   img.src =
     "https://api.site-shot.com/?url=" +
     encodeURIComponent(projects[index]) +
-    "userkey="+ "&width=1280&height=720&format=png";
+    "&userkey="+ "&width=1280&height=720&format=png";
 });
 

@@ -22,7 +22,7 @@ const imgs = document.querySelectorAll(".preview");
 
 imgs.forEach((img, index) => {
   img.src =
-    "INXI6LFUZ2TAED7IYF3VBW3VYB" +
+    "https://api.webstractor.com/v1/screenshot?url=" +
     encodeURIComponent(projects[index]) +
     "&width=1280&height=720&format=png";
 });

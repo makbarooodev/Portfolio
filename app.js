@@ -1,13 +1,14 @@
 let hari = new Date().getDay()
 
-hari[0] = 'minggu'
-hari[1] = 'senin'
-hari[2] = 'selasa'
-hari[3] = 'rabu'
-hari[4] = 'kamis'
-hari[5] = 'jumat'
-hari[6] = 'sabtu'
-
+let hari = [
+  'minggu',
+  'senin',
+  'selasa',
+  'rabu',
+  'kamis',
+  'jumat',
+  'sabtu'
+]
 
 alert(`Hari ini adalah hari ${hari}`)
 

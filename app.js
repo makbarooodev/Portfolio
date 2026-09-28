@@ -33,7 +33,7 @@ setInterval(() => {
     left: 200,
     behavior: "smooth"
   });
-
+  
   if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
     carousel.scrollLeft = 0;
   }

@@ -1,4 +1,4 @@
-let hari = new Date().getDay()
+let nomorHari = new Date().getDay()
 
 let hari = [
   'minggu',

@@ -1,7 +1,10 @@
 let cintaAbai = prompt('Cinta abai berapa persen?')
 let cintNupie = prompt('Cinta nupie berapa persen?')
 
-if 
+if (cintaAbai == cintNupie) 
+{
+  
+}
 
 const projects = [
   "https://makbarooodev.page.gd/",

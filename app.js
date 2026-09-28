@@ -5,7 +5,8 @@ if (cintaAbai == cintNupie)
 {
   alert('Kita pacaran')
 }
-else {
+else 
+{
   
 }
 

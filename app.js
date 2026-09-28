@@ -1,7 +1,7 @@
 let cintaAbai = prompt('Cinta abai berapa persen?')
 let cintNupie = prompt('Cinta nupie berapa persen?')
 
-if (cintaAbai == cintaNupie) 
+if (cintaAbai == cintNupie) 
 {
   alert('Kita pacaran')
 }
@@ -22,8 +22,20 @@ const imgs = document.querySelectorAll(".preview");
 
 imgs.forEach((img, index) => {
   img.src =
-    "https://api.site-shot.com/?url=" +
+    "https://api.webstractor.com/v1/screenshot?url=" +
     encodeURIComponent(projects[index]) +
-    "&userkey=INXI6LFUZ2TAED7IYF3VBW3VYB"+ "&width=1280&height=720&format=png";
+    "&width=1280&height=720&format=png";
 });
 
+const carousel = document.querySelector(".list-project");
+
+setInterval(() => {
+  carousel.scrollBy({
+    left: 200,
+    behavior: "smooth"
+  });
+  
+  if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
+    carousel.scrollLeft = 0;
+  }
+}, 8000);

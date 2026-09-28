@@ -1,4 +1,7 @@
-let cintaAbai = prompt('')
+let cintaAbai = prompt('Cinta abai berapa persen?')
+let cintNupie = prompt('Cinta nupie berapa persen?')
+
+if 
 
 const projects = [
   "https://makbarooodev.page.gd/",

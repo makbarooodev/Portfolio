@@ -25,7 +25,6 @@ imgs.forEach((img, index) => {
 
 const carousel = document.querySelector(".list-project");
 
-// Gandakan semua card
 carousel.innerHTML += carousel.innerHTML;
 
 setInterval(() => {

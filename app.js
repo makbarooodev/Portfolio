@@ -1,4 +1,6 @@
-let saldoAwal = prompt()
+let saldoAwal = prompt('Masukan saldo awal anda ');
+let saldoTerpakai = prompt('Masuka saldo yang ingin di pakai ')
+
 
 const projects = [
   "https://makbarooodev.page.gd/",

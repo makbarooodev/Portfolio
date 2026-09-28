@@ -26,3 +26,4 @@ imgs.forEach((img, index) => {
     encodeURIComponent(projects[index]) +
     "&width=1280&height=720&format=png";
 });
+

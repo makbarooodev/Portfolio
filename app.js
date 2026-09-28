@@ -1,4 +1,4 @@
-let hari = new Date().getDate()
+let hari = new Date().getDay()
 
 hari[1] = 'senin'
 hari[2] = 'selasa'

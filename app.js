@@ -1,6 +1,6 @@
 let hari = new Date().getDate()
 
-hari[0] = 
+hari[1] = 'senin' 
 
 const projects = [
   "https://makbarooodev.page.gd/",

@@ -1,5 +1,9 @@
 let saldoAwal = prompt('Masukan saldo awal anda ');
 let saldoTerpakai = prompt('Masuka saldo yang ingin di pakai ')
+let saldoAkhir
+
+saldoAkhir = saldoAwal - saldoTerpakai
+
 
 
 const projects = [

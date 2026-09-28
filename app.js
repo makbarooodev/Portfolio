@@ -1,7 +1,7 @@
 let cintaAbai = prompt('Cinta abai berapa persen?')
 let cintNupie = prompt('Cinta nupie berapa persen?')
 
-if (cintaAbai == cintNupie) 
+if (cintaAbai == cintaNupie) 
 {
   alert('Kita pacaran')
 }

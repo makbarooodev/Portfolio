@@ -1,11 +1,3 @@
-let saldoAwal = prompt('Masukan saldo awal anda ');
-let saldoTerpakai = prompt('Masuka saldo yang ingin di pakai ')
-let saldoAkhir
-
-saldoAkhir = saldoAwal - saldoTerpakai
-
-alert(`Sisa saldo anda adalah ${saldoAkhir}`)
-
 const projects = [
   "https://makbarooodev.page.gd/",
   "https://makbarooodev.page.gd/",

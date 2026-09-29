@@ -357,6 +357,7 @@ img {
 .box-about #bg-image {
   position: relative;
   object-fit: cover;
+  width: ;
   aspect-ratio: 1280 / 720;
 }
 

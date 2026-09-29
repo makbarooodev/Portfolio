@@ -362,6 +362,8 @@ img {
   vertical-align: middle;
 }
 
+.box-about 
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

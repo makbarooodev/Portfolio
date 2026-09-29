@@ -381,7 +381,7 @@ img {
   left: 20px;
   width: 30%;
   height: auto;
-  bac
+  backdrop-filter: 
 }
 
 @media (orientation: landscape) {

@@ -376,7 +376,7 @@ img {
 
 .box-about #photo-profile {
   position: absolute;
-  text-align: center;
+
   box-shadow: 0 0 10px black;
   border-radius: 50%;
   left: 20px;

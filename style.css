@@ -354,7 +354,9 @@ img {
   right: 1px;
 }
 
-.box-about #bg-profile
+.box-about #bg-profile {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

@@ -355,7 +355,7 @@ img {
 }
 
 .box-about #bg-image {
-  
+  position: relative;
 }
 
 @media (orientation: landscape) {

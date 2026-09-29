@@ -39,7 +39,7 @@ imgs.forEach(async (img, index) => {
   }
 });
 
-const links = document.querySelectorAll("nav a");
+const links = document.querySelectorAll("a");
 const main = document.querySelector("main");
 
 links.forEach(function(link) {

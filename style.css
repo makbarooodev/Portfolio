@@ -376,6 +376,7 @@ img {
 
 .box-about #photo-profile {
   position: absolute;
+  
   left: 20px;
   width: 30%;
   height: auto;

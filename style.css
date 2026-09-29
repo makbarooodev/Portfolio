@@ -76,7 +76,7 @@ main {
   margin-right: 8px;
   padding-bottom: 12px;
   color: var(--putih);
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .box-navigation  a:hover {

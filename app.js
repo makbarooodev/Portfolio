@@ -49,7 +49,9 @@ links.forEach(function(link) {
         const page = link.dataset.page;
 
         if (page === "about") {
-            main.innerHTML = ``;
+            main.innerHTML = `
+            
+            `;
         }
       
         if (page === "contact") {

@@ -358,6 +358,10 @@ img {
   position: relative;
 }
 
+.button i {
+  vertical-align: middle;
+}
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

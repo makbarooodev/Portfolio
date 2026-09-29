@@ -374,7 +374,9 @@ img {
   z-index: 10;
 }
 
-.box-about #photo
+.box-about #photo-profile {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

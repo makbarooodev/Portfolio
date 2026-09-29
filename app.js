@@ -58,7 +58,7 @@ links.forEach(function(link) {
             main.innerHTML = "<h1>Contact</h1>";
         }
 
-        if (page === "home") {
+        if (page === "project") {
             main.innerHTML = "<h1>Home</h1>";
         }
     });

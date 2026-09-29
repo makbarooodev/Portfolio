@@ -56,7 +56,7 @@ links.forEach(function(link) {
             id="bg-image">
             
             <img src="/img/circle-photo.png" alt="circle-photo">
-            m
+            
             </div>
             `;
         }

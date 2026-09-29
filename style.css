@@ -376,6 +376,7 @@ img {
 
 .box-about #photo-profile {
   width: 100%;
+  height: auto;
 }
 
 @media (orientation: landscape) {

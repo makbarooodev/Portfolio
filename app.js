@@ -51,7 +51,7 @@ links.forEach(function(link) {
         if (page === "about") {
             main.innerHTML = `
             <div class="box-about">
-            <img sc="/img/bg-profile.jpg" alt="Background-profile">
+            <img src="/img/bg-profile.jpg" alt="Background-profile">
             </div>
             `;
         }

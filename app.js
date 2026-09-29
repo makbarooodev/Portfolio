@@ -62,7 +62,7 @@ links.forEach(function(link) {
             
             <img src="/img/circle-photo.png" alt="circle-photo" id="photo-profile">
 
-            <div id
+            <div id=
             
             </div>
             `;

@@ -49,8 +49,7 @@ links.forEach(function(link) {
         const page = link.dataset.page;
 
         if (page === "about") {
-            main.innerHTML = `
-            <div class="box-about">
+            main.innerHTML = `<div class="box-about">
             <img href="/img/bg-profile.jpg">
             </div>
             `;

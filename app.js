@@ -50,7 +50,9 @@ links.forEach(function(link) {
 
         if (page === "about") {
             main.innerHTML = `
-            <div class="box-"></div>
+            <div class="box-about">
+            
+            </div>
             `;
         }
       

@@ -52,7 +52,7 @@ links.forEach(function(link) {
             main.innerHTML = `
             <div class="box-about">
 
-            <a id>
+            <a id="">
             
             </a>
             

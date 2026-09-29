@@ -52,7 +52,7 @@ links.forEach(function(link) {
             main.innerHTML = `
             <div class="box-about">
 
-            <a id="back-home">
+            <a id="to-home">
             <i class="ph-bold ph-arrow-left"></i>
             Back to home
             </a>

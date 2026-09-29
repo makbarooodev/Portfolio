@@ -55,7 +55,7 @@ links.forEach(function(link) {
             <img src="/img/bg-profile.jpg" alt="Background-profile"
             id="bg-image">
             
-            <img src="/img/circk-photo.png" alt="circle-photo">
+            <img src="/img/circle-photo.png" alt="circle-photo">
             
             </div>
             `;

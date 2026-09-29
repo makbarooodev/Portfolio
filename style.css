@@ -381,7 +381,7 @@ img {
   left: 20px;
   width: 30%;
   height: auto;
-  backdrop-filter: blur
+  backdrop-filter: blur;
 }
 
 @media (orientation: landscape) {

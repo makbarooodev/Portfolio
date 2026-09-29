@@ -354,6 +354,8 @@ img {
   right: 1px;
 }
 
+
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

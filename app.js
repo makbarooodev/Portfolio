@@ -53,7 +53,7 @@ links.forEach(function(link) {
             <div class="box-about">
 
             <a id="back-home">
-            <i class="ph-bold ph-arrow-left"></i>
+            <i class="ph-bold ph-arrow-left">Sigma</i>
             
             </a>
             

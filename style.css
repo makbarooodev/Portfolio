@@ -115,7 +115,7 @@ img {
 .box-text-header {
   position: absolute;
   top: 70px;
-  right: 7px;
+  right: 10px;
   color: var(--putih);
   text-align: right;
 }

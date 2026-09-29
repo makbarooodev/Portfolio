@@ -365,7 +365,7 @@ img {
 .box-about #to-home {
   position: absolute;
   top: 50px;
-  z-index: ;
+  z-index: 10;
 }
 
 @media (orientation: landscape) {

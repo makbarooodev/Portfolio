@@ -366,7 +366,7 @@ img {
 .box-about #to-home {
   position: absolute;
   top: 60px;
-  lef
+  left: 10px;
   z-index: 10;
 }
 

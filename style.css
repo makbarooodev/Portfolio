@@ -363,7 +363,8 @@ img {
 }
 
 .box-about #back-home {
-  posis
+  position: absolute;
+  
 }
 
 @media (orientation: landscape) {

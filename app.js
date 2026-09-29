@@ -49,7 +49,7 @@ links.forEach(function(link) {
         const page = link.dataset.page;
 
         if (page === "about") {
-            main.innerHTML = "<a href=""../index.html"">About</a>";
+            main.innerHTML = "<a href="../index.html">About</a>";
         }
       
         if (page === "contact") {

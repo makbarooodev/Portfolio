@@ -48,16 +48,16 @@ links.forEach(function(link) {
 
         const page = link.dataset.page;
 
-        if (page === "home") {
-            main.innerHTML = "<h1>Home</h1>";
-        }
-
         if (page === "about") {
             main.innerHTML = "<h1>About</h1>";
         }
       
         if (page === "contact") {
             main.innerHTML = "<h1>Contact</h1>";
+        }
+
+        if (page === "project") {
+            main.innerHTML = "<h1>Home</h1>";
         }
     });
 });

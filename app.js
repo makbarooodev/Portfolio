@@ -54,6 +54,7 @@ links.forEach(function(link) {
 
             <a id="to-home">
             <i class="ph-bold ph-arrow-left"></i>
+            Home
             </a>
             
             <img src="/img/bg-profile.jpg" alt="Background-profile"

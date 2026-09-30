@@ -418,14 +418,14 @@ img {
   box-sizing: border-box;
   overflow-y: auto;
 }
+
+
 .about-english b {
   font-weight: 500;
 }
 
 .about-english p {
   line-height: 1.5;
-  max-height: 350px;
-  z-index: 1;
 }
 
 .box-about .quote {

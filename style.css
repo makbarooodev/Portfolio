@@ -408,7 +408,7 @@ img {
 }
 
 .box-about #photo-profile::hover::before {
-  opacity: ;
+  opacity: 1;
 }
 
 @media (orientation: landscape) {

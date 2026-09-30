@@ -92,7 +92,7 @@ links.forEach(function(link) {
       interactions, checking functionality, and reviewing the interface
       across different screen sizes.
     </p>
-
+    <
     <p>
       When working with code, I approach problems systematically.
       I carefully trace my code from top to bottom to identify

@@ -407,17 +407,17 @@ img {
 
 .box-about .about-english {
   text-align: left;
-  padding: 10px;
   background-color: #55008c2a;
   border-radius: 20px;
   font-size: 15px;
   margin: 0 20px;
-  padding: 20px;
+
   height: 500px;
-  overflow: hidden;
+  padding: 20px;
+
+  box-sizing: border-box;
   overflow-y: auto;
 }
-
 .about-english b {
   font-weight: 500;
 }

@@ -450,6 +450,7 @@ img {
 .box-about .quote {
   margin: 15px 25px;
   font-size: 12px;
+  user-select: none;
 }
 
 @media (orientation: landscape) {

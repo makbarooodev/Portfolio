@@ -270,6 +270,7 @@ img {
 .skills-card h4 {
   width: 200px;
   margin: 10px 0;
+  user-select: none;
 }
 
 .skills-card p {

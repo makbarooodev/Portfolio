@@ -158,6 +158,7 @@ links.forEach(function(link) {
 <div class="card-contact">
 <h4>Muhammad Akbar Oktabian</h4>
 <a></a>
+<a></a>
 </div>
 </section>
             `;

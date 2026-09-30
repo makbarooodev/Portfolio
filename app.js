@@ -156,7 +156,7 @@ links.forEach(function(link) {
             main.innerHTML = `
 <section class="box-contact">
 <div class="card-contact">
-<h4>Muhammad  Oktabian</h4>
+<h4>Muhammad Akbar Oktabian</h4>
 </div>
 </section>
             `;

@@ -398,7 +398,8 @@ h2 {
 
 .about-english {
   text-align: left;
-  padding: 10;
+  padding: 10px;
+  
 }
 
 .box-about #photo-profile:hover, #photo-profile:active {

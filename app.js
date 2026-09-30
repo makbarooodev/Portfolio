@@ -65,12 +65,7 @@ links.forEach(function(link) {
             <div id="circle-bg"></div>
 
             <p>
-            Frontend Developer & Web Designer focused on creating responsive, visually engaging, and interactive web experiences.
-I approach projects from a visual perspective. Before implementing a website, I often develop illustrations or design concepts first, allowing me to build interfaces with a clear visual direction rather than simply writing code.
-My strengths are in visual design, responsive layouts, smooth animations, and attention to interface details. I also pay attention to how a website actually behaves by testing interactions, checking functionality, and reviewing the interface across different screen sizes.
-When working with code, I approach problems systematically. I carefully trace my code from top to bottom to identify inconsistencies and reduce avoidable errors. When something doesn't work as expected, I'm willing to revise, restructure, or rebuild parts of the project to achieve a cleaner result.
-I already have experience building and deploying my own websites, maintaining projects through GitHub, and developing designs and illustrations alongside the implementation.
-Currently, my main focus is frontend development, while I continue expanding my skills into JavaScript, PHP, backend development, and databases to eventually build more complete and functional web applications.
+            
             </p>
             
             </div>

@@ -341,6 +341,7 @@ img {
 .project-card span + span:before {
   content: "•";
   margin: 0 12px 0 10px;
+  
 }
 
 .box-footer {

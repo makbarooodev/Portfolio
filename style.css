@@ -391,7 +391,7 @@ img {
 }
 
 .box-about #photo-profile:hover {
-  background: linear-gradient(to right, var(--putih), var(--ungu-smooth), var)
+  background: linear-gradient(to right, var(--putih), var(--ungu-smooth), var(--ungu-muda))
 }
 
 @media (orientation: landscape) {

@@ -420,7 +420,7 @@ img {
   font-size: 15px;
   margin: 0 20px;
   padding: 20px;
-  height: ;
+  height: auto;
 }
 
 .about-english b {

@@ -71,7 +71,7 @@ links.forEach(function(link) {
   <!-- English Version -->
   <section class="about-english">
     <h3>Frontend Developer &amp; Web Designer</h3>
-    
+    <br>
     <p>
       I am a Frontend Developer &amp; Web Designer focused on creating
       responsive, visually engaging, and interactive web experiences.

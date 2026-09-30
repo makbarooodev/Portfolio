@@ -155,7 +155,9 @@ links.forEach(function(link) {
         if (page === "contact") {
             main.innerHTML = `
 <section class="box-contact">
-<div></div>
+<div>
+
+</div>
 </section>
             `;
         }

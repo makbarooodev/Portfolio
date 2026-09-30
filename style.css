@@ -285,6 +285,7 @@ img {
 
 .box-project .header-project {
   margin-left: 20px;
+  user-select: none;
 }
 
 .box-project .description-project {

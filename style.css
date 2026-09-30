@@ -399,7 +399,7 @@ h2 {
 .about-english {
   text-align: left;
   padding: 10px;
-  background-color: var(ung)
+  background-color: var(--ungu-tua)
 }
 
 .box-about #photo-profile:hover, #photo-profile:active {

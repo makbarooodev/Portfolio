@@ -392,7 +392,9 @@ img {
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.about-english 
+.about-english {
+  
+}
 
 .box-about #photo-profile:hover, #photo-profile:active {
   background: var(--ungu-muda);

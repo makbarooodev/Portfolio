@@ -414,7 +414,7 @@ img {
   margin: 0 20px;
   padding: 20px;
   height: 500px;
-  box-shadow: inset 0 0 10px hwb(292 0% 7% / 0.5058823529411764);
+  box-shadow: inset 0 0 10px lab(0% 0 0);
   overflow: hidden;
   overflow-y: auto;
 }

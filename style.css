@@ -391,7 +391,7 @@ img {
 }
 
 .box-about #photo-profile:hover {
-  back
+  background: line
 }
 
 @media (orientation: landscape) {

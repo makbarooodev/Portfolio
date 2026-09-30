@@ -154,7 +154,7 @@ links.forEach(function(link) {
       
         if (page === "contact") {
             main.innerHTML = `
-<section>
+<section class>
 
 </section>
             `;

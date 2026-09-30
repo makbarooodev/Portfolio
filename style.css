@@ -389,6 +389,7 @@ img {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   opacity: 0;
+  tram
 }
 
 .box-about #photo-profile:hover {

@@ -426,7 +426,7 @@ img {
 }
 
 .about-english::after {
-  content: "";
+  content: "•";
   display: block;
   height: 20px;
 }

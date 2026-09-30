@@ -169,7 +169,7 @@ img {
 
 .box-text-header .button:active, .button:hover {
   transform: scale(1.08);
-  background-color: hwb(0 100% 0% / 0.34901960784313724);
+  background-color: hwb(0 100% 0% / 0.17254901960784313);
   box-shadow: 0 0 10px hwb(0 100% 0% / 0.5019607843137255);
 }
 

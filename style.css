@@ -223,6 +223,7 @@ img {
 .box-skills .description-skills {
   color: hwb(0 100% 0% / 0.3568627450980392);
   margin: 5px 0 10px;
+  user-select: none;
 }
 
 .list-skills {

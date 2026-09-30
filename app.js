@@ -83,7 +83,7 @@ links.forEach(function(link) {
       allowing me to build interfaces with a clear visual direction
       rather than simply writing code.
     </p>
-
+    <br>
     <p>
       My strengths are in
       <strong>visual design, responsive layouts, smooth animations,

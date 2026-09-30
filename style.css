@@ -71,6 +71,7 @@ main {
   position: absolute;
   transform: translateY(-165%);
   right: 10px;
+  user-select: none;
 }
 
 .box-navigation a {

@@ -70,6 +70,7 @@ links.forEach(function(link) {
 
   <!-- English Version -->
   <section class="about-english">
+<br>
 
     <h3>Frontend Developer &amp; Web Designer</h3>
 

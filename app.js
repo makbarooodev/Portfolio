@@ -123,7 +123,7 @@ links.forEach(function(link) {
   </section>
 
 
-  
+
   </section>
 
 </article>

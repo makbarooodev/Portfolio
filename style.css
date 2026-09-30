@@ -407,8 +407,7 @@ img {
   transition: opacity 0.3s;
 }
 
-  box-shadow: linear-gradient(to right, var(--putih), var(--ungu-smooth), var(--ungu-muda));
-}
+
 
 @media (orientation: landscape) {
   .box-header img {

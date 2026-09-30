@@ -396,6 +396,12 @@ h2 {
   
 }
 
+.box-about #photo-profile:hover, #photo-profile:active {
+  background: var(--ungu-muda);
+  box-shadow: 0 0 20px hwb(284 11% 0% / 0.6549019607843137);
+  transform: scale(1.050);
+}
+
 .about-english {
   text-align: left;
   padding: 10px;
@@ -403,12 +409,6 @@ h2 {
   border-radius: 20px;
   font-size: 15px;
   margin: 0 20px;
-}
-
-.box-about #photo-profile:hover, #photo-profile:active {
-  background: var(--ungu-muda);
-  box-shadow: 0 0 20px hwb(284 11% 0% / 0.6549019607843137);
-  transform: scale(1.050);
 }
 
 @media (orientation: landscape) {

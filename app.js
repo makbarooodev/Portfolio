@@ -100,13 +100,13 @@ links.forEach(function(link) {
       doesn't work as expected, I'm willing to revise, restructure,
       or rebuild parts of the project to achieve a cleaner result.
     </p>
-
+    <br>
     <p>
       I already have experience building and deploying my own websites,
       maintaining projects through GitHub, and developing designs and
       illustrations alongside the implementation.
     </p>
-
+    <br>
     <p>
       Currently, my main focus is frontend development, while I continue
       expanding my skills into

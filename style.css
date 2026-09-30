@@ -28,7 +28,11 @@ html, body {
   background-color: var(--hitam);
   overflow-x: hidden;
   overflow-y: auto;
-  
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
 }
 
 main {

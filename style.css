@@ -420,7 +420,7 @@ img {
 }
 
 .about-english::before {
-  content: "";
+  content: "•";
   display: block;
   height: 10px;
 }

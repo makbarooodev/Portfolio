@@ -386,6 +386,7 @@ img {
   top: 150px;
   width: 30%;
   height: auto;
+  background: transparent;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }

@@ -123,62 +123,7 @@ links.forEach(function(link) {
   </section>
 
 
-  <!-- Indonesian Version -->
-  <section class="about-indonesia">
-
-    <h3>Frontend Developer &amp; Web Designer</h3>
-
-    <p>
-      Saya adalah Frontend Developer &amp; Web Designer yang berfokus
-      pada pembuatan website yang responsif, menarik secara visual,
-      dan interaktif.
-    </p>
-
-    <p>
-      Saya mengawali sebuah proyek dari sisi visual. Sebelum
-      mengimplementasikan website, saya sering membuat ilustrasi atau
-      konsep desain terlebih dahulu agar memiliki arah visual yang jelas,
-      bukan sekadar langsung menulis kode.
-    </p>
-
-    <p>
-      Kekuatan saya berada pada
-      <strong>visual design, responsive layout, animasi yang halus,
-      dan perhatian terhadap detail tampilan</strong>.
-      Saya juga memperhatikan bagaimana sebuah website benar-benar
-      digunakan dengan menguji interaksi, memeriksa fungsi, serta
-      mengevaluasi tampilannya pada berbagai ukuran layar.
-    </p>
-
-    <p>
-      Dalam menangani kode, saya terbiasa bekerja secara sistematis.
-      Saya membaca dan menelusuri kode dari atas hingga bawah untuk
-      menemukan ketidaksesuaian dan mengurangi kesalahan yang dapat
-      dihindari. Ketika hasilnya belum sesuai, saya bersedia melakukan
-      revisi, merombak struktur, bahkan membangun kembali bagian tertentu
-      agar hasil akhirnya lebih baik dan teratur.
-    </p>
-
-    <p>
-      Saya telah memiliki pengalaman membangun dan melakukan deployment
-      website sendiri, mengelola project melalui GitHub, serta
-      mengembangkan desain dan ilustrasi bersamaan dengan implementasinya.
-    </p>
-
-    <p>
-      Saat ini, fokus utama saya adalah frontend development, sambil
-      terus mengembangkan kemampuan dalam
-      <strong>JavaScript, PHP, backend development, dan database</strong>
-      untuk nantinya membangun aplikasi web yang lebih lengkap dan
-      fungsional.
-    </p>
-
-    <blockquote>
-      Bagi saya, membuat website bukan hanya tentang membuatnya berfungsi,
-      tetapi juga menciptakan tampilan yang memiliki tujuan, terasa
-      responsif, dan mampu menyampaikan karakter proyek dengan jelas.
-    </blockquote>
-
+  
   </section>
 
 </article>

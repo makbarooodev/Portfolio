@@ -412,6 +412,10 @@ img {
   padding: 20px;
 }
 
+.about-english p {
+  line-height: 2.0;
+}
+
 .box-about .quote {
   margin: 15px 25px;
   font-size: 12px;

@@ -123,7 +123,7 @@ img {
   right: 10px;
   color: var(--putih);
   text-align: right;
-  
+  user-select: none;
 }
 
 .box-text-header .hello {

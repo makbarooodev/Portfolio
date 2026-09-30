@@ -361,6 +361,7 @@ img {
   padding: 5px 5px;
   bottom: 0;
   right: 0;
+  flex-shrink: 0;
 }
 
 .box-about {

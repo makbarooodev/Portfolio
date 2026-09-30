@@ -391,7 +391,7 @@ img {
 }
 
 #photo-profile::before {
-  content: "";
+  content: " ";
   position: absolute;
   inset: 0;
 

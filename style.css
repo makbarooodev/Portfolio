@@ -391,10 +391,6 @@ img {
   -webkit-backdrop-filter: blur(5px);
   transition: transform 0.3s ease;
 }
-
-.box-about #photo-profile:hver {
-  background: var(--ungu-muda);
-  box-shadow: 0 0 20px hwb(284 11% 0% / 0.6549019607843137);
   
 .box-about #photo-profile:active {
   background: var(--ungu-muda);

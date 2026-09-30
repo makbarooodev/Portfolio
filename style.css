@@ -96,7 +96,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  user
+  user-select: none;
 }
 
 .box-header {

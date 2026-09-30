@@ -393,7 +393,7 @@ img {
 #photo-profile::before {
   content: " ";
   position: absolute;
-  width: ;
+  width: 500px;
 
   background: linear-gradient(
     to right,

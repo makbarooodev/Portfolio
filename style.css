@@ -353,7 +353,7 @@ img {
   position: fixed;
   bottom: 0;
   padding: 0;
-  margin-right: -5px;
+  margin-right: px;
   margin-left: -5px;
   right: 1px;
 }

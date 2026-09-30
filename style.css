@@ -354,6 +354,10 @@ img {
   right: 1px;
 }
 
+.box-about {
+  text-align: center;
+}
+
 .box-about #bg-image {
   position: relative;
   object-fit: cover;

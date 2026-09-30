@@ -276,7 +276,7 @@ img {
 .skills-card p {
   font-size: 12.5px;
   line-height: 1.4;
-  
+  user-select: none;
 }
 
 .box-project {

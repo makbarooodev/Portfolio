@@ -217,6 +217,7 @@ img {
 
 .box-skills .header-skills {
   position: relative;
+  user-select: none;
 }
 
 .box-skills .description-skills {

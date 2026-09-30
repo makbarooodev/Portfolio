@@ -376,7 +376,7 @@ img {
   position: absolute;
   top: 60px;
   left: 10px;
-  z-index: 10;
+  z-index: 2;
 }
 
 .box-about #photo-profile {

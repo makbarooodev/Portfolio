@@ -389,13 +389,13 @@ img {
   height: auto;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  transition: background 0.3s ease, trans;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .box-about #photo-profile:hover {
   background: var(--ungu-muda);
   box-shadow: 0 0 20px hwb(284 11% 0% / 0.6549019607843137);
-  
+  transform: ;
 }
 
 @media (orientation: landscape) {

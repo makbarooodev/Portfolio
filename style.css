@@ -395,6 +395,7 @@ img {
   position: absolute;
   width: 500px;
   height: auto;
+  padd: ;
 
   background: linear-gradient(
     to right,

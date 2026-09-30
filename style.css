@@ -310,7 +310,7 @@ img {
 .project-card img:active {
   transform: scale(1.05);
   outline: 1.5px solid white;
-  
+  box
 }
 
 .project-card h4 {

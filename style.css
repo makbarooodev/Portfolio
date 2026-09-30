@@ -400,7 +400,7 @@ h2 {
   text-align: left;
   padding: 10px;
   background-color: var(--ungu-tua);
-  border-radius
+  border-radius: 20px;
 }
 
 .box-about #photo-profile:hover, #photo-profile:active {

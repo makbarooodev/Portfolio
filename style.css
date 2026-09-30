@@ -412,7 +412,9 @@ h2 {
   padding: 20px;
 }
 
-sm
+small {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

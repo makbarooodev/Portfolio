@@ -402,7 +402,7 @@ h2 {
   background-color: var(--ungu-tua);
   border-radius: 20px;
   font-size: 15px;
-  margin: ;
+  margin: 0 20px;
 }
 
 .box-about #photo-profile:hover, #photo-profile:active {

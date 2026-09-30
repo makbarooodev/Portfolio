@@ -391,7 +391,7 @@ img {
 }
 
 .box-about #photo-profile:hover {
-  background: linear-gradient(to right, var)
+  background: linear-gradient(to right, var())
 }
 
 @media (orientation: landscape) {

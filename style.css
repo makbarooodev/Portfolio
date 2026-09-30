@@ -28,6 +28,7 @@ html, body {
   background-color: var(--hitam);
   overflow-x: hidden;
   overflow-y: auto;
+  
 }
 
 main {

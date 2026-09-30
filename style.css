@@ -407,7 +407,7 @@ img {
   transition: opacity 0.3s;
 }
 
-.box-about #photo-profile
+.box-about #photo-profile:hov
 
 @media (orientation: landscape) {
   .box-header img {

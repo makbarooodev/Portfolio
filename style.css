@@ -330,7 +330,7 @@ img {
 .project-card h4 {
   width: 200px;
   margin: 10px 0 6px 7px;
-  
+  user-select: none;
 }
 
 .project-card p {

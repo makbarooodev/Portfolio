@@ -335,7 +335,7 @@ img {
 
 .project-card p {
   font-size: 10px;
-  margin: 0 0 0 7px;
+  margin: 0 0 0 7px;user-select: none;
 }
 
 .project-card span + span:before {

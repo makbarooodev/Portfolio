@@ -399,6 +399,7 @@ img {
 .box-about #photo-profile:active {
   background: var(--ungu-muda);
   box-shadow: 0 0 20px hwb(284 11% 0% / 0.6549019607843137);
+  transform: ;
 }
 
 @media (orientation: landscape) {

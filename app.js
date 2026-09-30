@@ -158,7 +158,7 @@ links.forEach(function(link) {
 <div class="card-contact">
 <h4>Muhammad Akbar Oktabian</h4>
 <a href="#">08</a>
-<a href=""></a>
+<a href="#"></a>
 <a href=""></a>
 </div>
 </section>

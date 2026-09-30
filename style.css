@@ -419,7 +419,11 @@ img {
   overflow-y: auto;
 }
 
-
+.about-english::before {
+  content: "";
+  display: block;
+  height: 10px;
+}
 .about-english b {
   font-weight: 500;
 }

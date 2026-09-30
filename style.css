@@ -413,7 +413,7 @@ h2 {
 }
 
 .quote {
-  transform: scale(-);
+  transform: scale(-0.5);
 }
 
 @media (orientation: landscape) {

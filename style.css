@@ -391,7 +391,9 @@ img {
   opacity: 0;
 }
 
-.box-about #photo-profile:hover
+.box-about #photo-profile:hover {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

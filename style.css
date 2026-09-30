@@ -393,7 +393,7 @@ img {
 }
 
 .box-about #photo-profile:hover {
-  background: var(--ungu-smooth)
+  background: var(--ungu-smooth);
 }
 
 @media (orientation: landscape) {

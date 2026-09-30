@@ -317,7 +317,7 @@ img {
   border-radius: 10px;
   transition: transform 0.3s ease, outline 0.3s ease;
   outline: 1.5px solid lab(0% 0 0 / 0);
-  
+  user-select: none;
 }
 
 .project-card img:hover,

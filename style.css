@@ -421,7 +421,8 @@ img {
 
 .about-english p {
   line-height: 1.5;
-  
+  max-height: 350px;
+  overflow-y: auto;
 }
 
 .box-about .quote {

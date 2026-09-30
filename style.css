@@ -346,6 +346,7 @@ img {
 
 .box-footer {
   text-align: center;
+  user-select: none;
 }
 
 .box-footer img {

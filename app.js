@@ -118,7 +118,7 @@ links.forEach(function(link) {
       My goal is not simply to make a website work, but to create an
       interface that looks intentional, feels responsive, and represents
       the purpose of the project clearly.
-    </blockquote
+    </blockquote>
 
 </article>
             

@@ -394,7 +394,6 @@ img {
 .box-about #photo-profile::before {
   content: "";
   position: absolute;
-  inset: 0;
 
   background: linear-gradient(
     to right,

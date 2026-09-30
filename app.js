@@ -76,7 +76,7 @@ links.forEach(function(link) {
       I am a Frontend Developer &amp; Web Designer focused on creating
       responsive, visually engaging, and interactive web experiences.
     </p>
-
+    
     <p>
       I approach projects from a visual perspective. Before implementing
       a website, I often develop illustrations or design concepts first,

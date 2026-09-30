@@ -153,7 +153,9 @@ links.forEach(function(link) {
         }
       
         if (page === "contact") {
-            main.innerHTML = ``;
+            main.innerHTML = `
+            
+            `;
         }
 
         if (page === "project") {

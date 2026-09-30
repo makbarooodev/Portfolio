@@ -402,7 +402,7 @@ img {
   margin: 50px 0 20px;
 }
 
-..about-english {
+.box-.about-english {
   text-align: left;
   padding: 10px;
   background-color: var(--ungu-tua);

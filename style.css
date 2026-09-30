@@ -37,7 +37,7 @@ html, body {
 
 main {
   padding-top: 45px;
-  
+  flex: 1;
 }
 
 .box-navigation {

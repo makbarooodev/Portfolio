@@ -173,7 +173,7 @@ links.forEach(function(link) {
 
 <li class="almt">
 <a href="#">Generastik plastik,
-bandung, indonesia.</a>
+<br>bandung, indonesia.</a>
 </li>
 
 <li class="gmail">

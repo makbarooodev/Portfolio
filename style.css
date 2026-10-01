@@ -525,9 +525,7 @@ li.git::before {
   color: black;
 }
 
-li.almt::before {
-  display: none;
-}
+
 
 li.gmail::before {
   content: "\f0e0";

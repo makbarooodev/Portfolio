@@ -161,6 +161,7 @@ links.forEach(function(link) {
 <img src="img/pass-photo.jpg" alt="Muhammad Akbar Oktabian in junior high school">
 
 <h4>Muhammad Akbar Oktabian</h4>
+
 <a href="#">+62 838 2738 2781</a>
 <a href="#">Makbarooodev</a>
 <a href="#">Generastik plastik, bandung, indonesia.</a>

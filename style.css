@@ -479,7 +479,7 @@ li {
 
 li::before {
   font-family: "Font Awesome 7 Brands";
-  margin-right: 8px
+  margin-right: 8px;
 }
 
 li.tlp::before {

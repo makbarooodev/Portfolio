@@ -485,4 +485,12 @@ img {
   .box-text-header .slogan {
     font-size: 15px;
   }
+
+  .box-about #bg-image {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  aspect-ratio: 1280 / 720;
+  }
 }

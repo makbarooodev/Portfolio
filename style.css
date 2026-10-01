@@ -445,7 +445,7 @@ img {
 
 .about-english p {
   line-height: 1.5;
-  text-align: just;
+  text-align: justify;
 }
 
 .box-about .quote {
@@ -498,5 +498,9 @@ img {
     left: 40%;
     width: 20%;
     height: auto;
+  }
+
+  .box-about .about-english {
+    
   }
 }

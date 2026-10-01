@@ -462,7 +462,7 @@ img {
 .card-contact {
   display: flex;
   background-color: var(--ungu-smooth);
-  margin: ;
+  margin: 20px 20px;
 }
 
 .card-contact img {

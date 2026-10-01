@@ -514,7 +514,7 @@ li.git::before {
 }
 
 li.almt::before {
-  content: "\f5a0";
+  content: "\f276";
   font-family: "Font Awesome 7 Free";
   font-size: 20px;
   color: red;

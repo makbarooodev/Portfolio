@@ -484,7 +484,7 @@ li::before {
 }
 
 li.tlp::before {
-  content: "/f232";
+  content: "f232";
 }
 
 @media (orientation: landscape) {

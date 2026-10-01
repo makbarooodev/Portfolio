@@ -497,7 +497,7 @@ li {
 }
 
 li::before {
-  font-family: "Font Awesome 2 Brands";
+  font-family: "Font Awesome 7 Brands";
   margin-right: 5px;
 }
 
@@ -515,6 +515,7 @@ li.git::before {
 
 li.almt::before {
   content: "\f3c5";
+  font-family: "Font Awesome 7 Brands";
   font-size: 20px;
   color: red;
 }

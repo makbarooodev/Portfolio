@@ -168,7 +168,7 @@ links.forEach(function(link) {
 <a href="#">Generastik plastik, bandung, indonesia.</a>
 <br>
 <a href="#">makbarooo2009@gmail.com</a>
-<div
+</div
 
 <img src="img/pass-photo.jpg" alt="Muhammad Akbar Oktabian in junior high school">
 

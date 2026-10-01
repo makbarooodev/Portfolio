@@ -473,6 +473,10 @@ img {
   text-align: right;
 }
 
+li {
+  list-style: none;
+}
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

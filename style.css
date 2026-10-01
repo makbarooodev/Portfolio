@@ -485,7 +485,7 @@ li::before {
 li.tlp::before {
   content: "\f40c";
   width: 100%;
-  height: ;
+  height: auto;
 }
 
 @media (orientation: landscape) {

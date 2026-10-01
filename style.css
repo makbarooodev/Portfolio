@@ -521,6 +521,7 @@ li.almt::before {
   content: "\e316";
   font-family: "Phospor";
   font-size: 20px;
+  color: red;
 }
 
 li.gmail::before {

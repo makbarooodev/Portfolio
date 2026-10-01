@@ -504,7 +504,9 @@ li {
   min-width: 0;
 }
 
-li .tlp 
+li .tlp {
+  margin-bottom: ;
+}
 
 li::before {
   font-family: "Font Awesome 7 Brands";

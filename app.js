@@ -165,7 +165,8 @@ links.forEach(function(link) {
 
 <li class="tlp">
 <a href="https://wa.me/6283827382781">
-+62 838 2738 2781</a>
++62 838 2738 2781
+</a>
 </li>
 
 <li class="git">

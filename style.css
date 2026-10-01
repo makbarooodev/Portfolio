@@ -477,6 +477,12 @@ li {
   list-style: none;
 }
 
+li::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

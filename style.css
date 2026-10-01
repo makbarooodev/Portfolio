@@ -504,6 +504,7 @@ li {
   min-width: 0;
 }
 
+
 li::before {
   font-family: "Font Awesome 7 Brands";
   margin-right: 5px;

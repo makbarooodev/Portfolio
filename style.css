@@ -499,4 +499,10 @@ img {
   .box-about h2 {
   margin: 80px 0 20px;
   }
+
+  .box-about .quote {
+  margin: 15px 25px;
+  font-size: 12px;
+  user-select: none;
+  }
 }

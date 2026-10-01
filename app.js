@@ -172,7 +172,7 @@ links.forEach(function(link) {
 </li>
 
 <li class="almt">
-<a href="#">Generastik plastik, bandung, indonesia.</a>
+<a href="#">bandung, indonesia.</a>
 </li>
 
 <li class="gmail">

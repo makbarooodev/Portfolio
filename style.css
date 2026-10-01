@@ -525,7 +525,10 @@ li a {
   transition: 0.3s;
 }
 
-
+.wa:hover {
+  color: #25D366;
+  text-shadow: 0 0 10px #25D366;
+}
 
 li {
   list-style: none;

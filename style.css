@@ -473,7 +473,6 @@ img {
   width: 100px;
   height: auto;
   text-align: right;
-  outline: 2px solid red;
   flex-shrink: 0;
 }
 

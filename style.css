@@ -506,6 +506,7 @@ li.tlp::before {
   font-size: 20px;
   color: #25D366;
 }
+
 li.git::before {
   content: "\f09b";
   font-size: 20px;

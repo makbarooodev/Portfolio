@@ -486,7 +486,7 @@ img {
 
 li {
   list-style: none;
-  
+  flex: 1;
   min-width: 0;
   outline: 2px solid red;
 }

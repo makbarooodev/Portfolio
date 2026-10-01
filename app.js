@@ -178,7 +178,7 @@ links.forEach(function(link) {
 </li>
 
 <li class="gmail">
-<a href="#" class="email">makbarooo2009@gmail.com</a>
+<a href="#mailto:makbarooo2009@gmail.com" class="email">makbarooo2009@gmail.com</a>
 </li>
 
 </ul>

@@ -506,7 +506,7 @@ li a {
 }
 
 .hub:hover {
-  text-shadow: 0 0 10px #25D366;
+  text-shadow: 0 0 10px #000000;
 }
 
 .dom {

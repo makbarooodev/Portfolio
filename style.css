@@ -460,7 +460,7 @@ img {
 }
 
 .card-contact img {
-  width: 50;
+  width: 50%;
 }
 
 @media (orientation: landscape) {

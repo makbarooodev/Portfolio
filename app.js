@@ -167,7 +167,7 @@ links.forEach(function(link) {
 <a href="#">+62 838 2738 2781</a>
 </li>
 
-<li >
+<li class>
 <a href="#">Makbarooodev</a>
 </li>
 

@@ -519,7 +519,7 @@ li.almt::before {
 li.gmail::before {
   content: "\f0e0";
   font-size: 20px;
-  color: blue;
+  color: lightbluee;
 }
 
 @media (orientation: landscape) {

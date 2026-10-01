@@ -171,7 +171,7 @@ links.forEach(function(link) {
 <a href="#">Makbarooodev</a>
 </li>
 
-<li class="alt">
+<li class="almt">
 <a href="#">Generastik plastik, bandung, indonesia.</a>
 </li>
 

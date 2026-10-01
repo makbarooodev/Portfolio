@@ -486,6 +486,7 @@ img {
 
 li {
   list-style: none;
+  min-height: ;
   outline: 2px solid red;
 }
 

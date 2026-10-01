@@ -520,6 +520,7 @@ li.git::before {
 li.almt::before {
   content: "\e316";
   font-family: "Phospor";
+  font-size: 20px;
 }
 
 li.gmail::before {

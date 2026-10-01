@@ -480,7 +480,9 @@ img {
   outline: 2px solid red;
 }
 
-.list
+.list-contact {
+  outline: 2px solid red;
+}
 
 li {
   list-style: none;

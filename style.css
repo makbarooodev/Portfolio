@@ -484,7 +484,7 @@ li::before {
 
 li.tlp::before {
   content: "\f40c";
-  width: 100%;
+  width: ;
   height: auto;
 }
 

@@ -475,7 +475,6 @@ img {
 
 li {
   list-style: none;
-  width: 150%;
 }
 
 li::before {

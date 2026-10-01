@@ -522,7 +522,7 @@ li.almt::before {
 
 li.gmail::before {
   content: "\f0e0";
-  font-family: "Font Awesome 7 Brands";
+  font-family: "Font Awesome 7 Free";
   font-size: 20px;
   color: hwb(195 4% 7%);
 }

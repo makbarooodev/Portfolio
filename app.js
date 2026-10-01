@@ -174,7 +174,6 @@ links.forEach(function(link) {
 </li>
 
 <li class="almt">
-<i class="fa-solid fa-location-dot" style="color: rgb(
 <a href="#">bandung, indonesia.</a>
 </li>
 

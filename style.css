@@ -483,7 +483,9 @@ img {
   font-size: 15px;
 }
 
-.listcontact
+.list-contact {
+  color: black;
+}
 
 li {
   list-style: none;

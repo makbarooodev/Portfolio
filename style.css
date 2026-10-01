@@ -488,7 +488,7 @@ li {
   line-height: 1.4;
   flex: 1;
   min-width: 0;
-  color: :
+  color: ;
 }
 
 li::before {

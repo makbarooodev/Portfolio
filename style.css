@@ -505,7 +505,7 @@ li {
 }
 
 li .tlp {
-  margin-bottom: ;
+  margin-bottom: -5px;
 }
 
 li::before {

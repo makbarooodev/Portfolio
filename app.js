@@ -26,17 +26,14 @@ imgs.forEach(async (img, index) => {
     });
 
     if (!response.ok) {
-      img.alt = `Error ${response.status}`;
-      return;
+  const errorText = await response.text();
+
+  img.alt = `Error ${response.status}`;
+
+  alert(`Status: ${response.status}\n\n${errorText}`);
+
+  return;
     }
-
-    const blob = await response.blob();
-
-    img.src = URL.createObjectURL(blob);
-
-  } catch (error) {
-    img.alt = "Gagal mengambil screenshot";
-  }
 });
 
 const links = document.querySelectorAll("nav a");

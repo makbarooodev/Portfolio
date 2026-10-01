@@ -464,7 +464,7 @@ img {
   background-color: var(--ungu-smooth);
   margin: 20px 20px;
   padding: 20px;
-  border-radius: 
+  border-radius: 20px;
 }
 
 .card-contact img {

@@ -518,6 +518,7 @@ li.almt::before {
   font-size: 20px;
   color: red;
 }
+
 li.gmail::before {
   content: "\f0e0";
   font-size: 20px;

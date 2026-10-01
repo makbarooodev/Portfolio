@@ -518,7 +518,7 @@ li.git::before {
 }
 
 li.almt::before {
-  content: "\E316";
+  content: "\e316";
 }
 
 li.gmail::before {

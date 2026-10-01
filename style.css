@@ -494,7 +494,7 @@ li.almt::before {
   content: "\f40c";
   font-size: 20px;
 }
-li.::before {
+li.gmail::before {
   content: "\f40c";
   font-size: 20px;
 }

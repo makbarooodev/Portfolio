@@ -488,6 +488,10 @@ img {
   background-color: black;
 }
 
+li a {
+  color: black;
+}
+
 li {
   list-style: none;
   line-height: 1.4;

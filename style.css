@@ -483,12 +483,13 @@ img {
   font-size: 15px;
 }
 
+.list
+
 li {
   list-style: none;
   line-height: 1.4;
   flex: 1;
   min-width: 0;
-  color: black;
 }
 
 li::before {

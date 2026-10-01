@@ -495,4 +495,8 @@ img {
   .box-about .about-english {
     margin: 0 40px;
   }
+
+  .box-about h2 {
+  margin: 50px 0 20px;
+  }
 }

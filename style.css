@@ -469,11 +469,12 @@ img {
   outline: 2px solid red;
 }
 
-.card-contact img {
+.card-contact > img {
   width: 100px;
   height: auto;
   text-align: right;
   outline: 2px solid red;
+  flex-shrink: 0;
 }
 
 .card-contact h4 {

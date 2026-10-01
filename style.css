@@ -497,6 +497,7 @@ li {
 }
 
 li::before {
+  font-family: "Font Awesome 7 Brands";
   margin-right: 5px;
 }
 
@@ -504,14 +505,12 @@ li.tlp::before {
   content: "\f40c";
   font-size: 20px;
   color: #25D366;
-  font-family: "Font Awesome 7 Brands";
 }
 
 li.git::before {
   content: "\f09b";
   font-size: 20px;
   color: black;
-  font-family: "Font Awesome 7 Brands";
 }
 
 li.almt::before {

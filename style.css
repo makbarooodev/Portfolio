@@ -505,6 +505,11 @@ li a {
   transition: 0.3s;
 }
 
+.hub:hover {
+  color: #25D366;
+  text-shadow: 0 0 10px #25D366;
+}
+
 .dom {
   color: black;
   transition: 0.3s;

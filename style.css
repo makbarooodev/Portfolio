@@ -402,7 +402,7 @@ img {
 
 .box-about #to-home:hover {
   color: var(--ungu-smooth);
-  text
+  text-overflow: ;
 }
 
 .box-about #photo-profile {

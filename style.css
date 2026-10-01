@@ -475,7 +475,6 @@ img {
 
 li {
   list-style: none;
-  vertical-align: middle;
 }
 
 li::before {

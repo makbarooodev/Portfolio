@@ -158,7 +158,7 @@ links.forEach(function(link) {
 
 <div class="card-contact">
 
-<img src="pass-photo" alt="Muhammad Akbar Oktabian in junior high scholm">
+<img src="pass-photo" alt="Muhammad Akbar Oktabian in junior high school">
 <h4>Muhammad Akbar Oktabian</h4>
 <a href="#">+62 838 2738 2781</a>
 <a href="#"></a>

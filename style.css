@@ -474,7 +474,7 @@ img {
   height: auto;
   text-align: right;
   outline: 2px solid red;
-  flex-shrink: 0;
+  flex-shrink: 10;
 }
 
 .card-contact h4 {

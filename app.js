@@ -174,6 +174,7 @@ links.forEach(function(link) {
 </li>
 
 <li class="almt">
+<i class="ph-fill ph-map-pin"></i>
 <a href="#">bandung, indonesia.</a>
 </li>
 

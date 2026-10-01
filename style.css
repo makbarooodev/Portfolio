@@ -477,6 +477,7 @@ img {
 
 .card-contact h4 {
   margin-bottom: 5px;
+  outline: 2px solid red;
 }
 
 li {

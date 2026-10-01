@@ -486,6 +486,22 @@ li.tlp::before {
   content: "\f40c";
   font-size: 20px;
 }
+li.tlp::before {
+  content: "\f40c";
+  font-size: 20px;
+}
+li.tlp::before {
+  content: "\f40c";
+  font-size: 20px;
+}
+li.tlp::before {
+  content: "\f40c";
+  font-size: 20px;
+}
+li.tlp::before {
+  content: "\f40c";
+  font-size: 20px;
+}
 
 @media (orientation: landscape) {
   .box-header img {

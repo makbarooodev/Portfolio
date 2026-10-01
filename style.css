@@ -518,7 +518,7 @@ li.git::before {
 }
 
 li.almt::before {
-  content: "EE3E";
+  content: "EE3e";
   font-family: "Phosphor";
   font-size: 20px;
   color: red;

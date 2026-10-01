@@ -517,6 +517,14 @@ li.git::before {
   color: black;
 }
 
+li i {
+  vertical-align: middle;
+  margin-top: 50px;
+  margin-right: 5px;
+  font-size: 20px;
+  color: red;
+}
+
 li.gmail::before {
   content: "\f0e0";
   font-family: "Font Awesome 7 Free";

@@ -494,7 +494,9 @@ li a {
   transition: 0.3s;
 }
 
-.wa:hover
+.wa:hover {
+  
+}
 
 .hub {
   color: black;

@@ -510,7 +510,7 @@ li::before {
 
 li.tlp::before {
   content: "\f40c";
-  margin-left: 3px;
+  margin-left: 2px;
   font-size: 20px;
   color: #25D366;
 }

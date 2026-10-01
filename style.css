@@ -478,6 +478,7 @@ li {
   font-size: 15px;
   transform: scale(0.8);
   width: 100%;
+  height: ;
 }
 
 li::before {

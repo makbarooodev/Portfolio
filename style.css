@@ -462,6 +462,7 @@ img {
 .card-contact {
   display: flex;
   background-color: var(--ungu-smooth);
+  margin: ;
 }
 
 .card-contact img {

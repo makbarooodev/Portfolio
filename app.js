@@ -175,7 +175,7 @@ links.forEach(function(link) {
 
 <li class="almt">
 <i class="ph-fill ph-map-pin" color: red;></i>
-<a href="#">bandung, indonesia.</a>
+<a href="#" class>bandung, indonesia.</a>
 </li>
 
 <li class="gmail">

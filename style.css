@@ -500,7 +500,7 @@ li::before {
   font-family: "Font Awesome 7 Brands";
   margin-right: 5px;
   margin-bottom: 50px;
-  margin-top: ;
+  margin-top: 10px;
 }
 
 li.tlp::before {

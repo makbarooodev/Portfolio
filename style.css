@@ -471,7 +471,7 @@ img {
 .card-contact > img {
   width: 100px;
   height: auto;
-  box-shadow: 5px 5px 10px grey;
+  box-shadow: 5px 5px 5px grey;
   text-align: right;
   flex-shrink: 0;
 }

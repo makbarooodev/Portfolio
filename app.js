@@ -9,6 +9,9 @@ const projects = [
 const imgs = document.querySelectorAll(".preview");
 
 imgs.forEach(async (img, index) => {
+
+  img.alt = "Memulai...";
+
   const endpoint = new URL(
     "https://api.webstractor.com/v1/screenshot"
   );
@@ -18,22 +21,38 @@ imgs.forEach(async (img, index) => {
   endpoint.searchParams.set("height", "720");
   endpoint.searchParams.set("format", "png");
 
+  img.alt = "Mengirim request...";
+
   try {
+
     const response = await fetch(endpoint, {
       headers: {
-        Authorization: "Bearer ext_live_KUOV3rZ8tAkGNcq1Ho0tCWhG"
+        Authorization: "Bearer API_KEY_KAMU"
       }
     });
 
+    img.alt = `Response: ${response.status}`;
+
     if (!response.ok) {
-  const errorText = await response.text();
+      const errorText = await response.text();
 
-  img.alt = `Error ${response.status}`;
-
-  alert(`Status: ${response.status}\n\n${errorText}`);
-
-  return;
+      img.alt = `Error ${response.status}: ${errorText}`;
+      return;
     }
+
+    img.alt = "Mengambil gambar...";
+
+    const blob = await response.blob();
+
+    img.src = URL.createObjectURL(blob);
+
+    img.alt = "Screenshot berhasil!";
+
+  } catch (error) {
+
+    img.alt = `FETCH ERROR: ${error.message}`;
+
+  }
 });
 
 const links = document.querySelectorAll("nav a");

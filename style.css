@@ -519,6 +519,7 @@ li.git::before {
 
 li.almt::before {
   content: "\e316";
+  font-family: ;
 }
 
 li.gmail::before {

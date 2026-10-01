@@ -509,7 +509,7 @@ li.tlp::before {
 li.git::before {
   content: "\f09b";
   font-size: 20px;
-  color
+  color: black;
 }
 li.almt::before {
   content: "\f3c5";

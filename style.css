@@ -504,6 +504,7 @@ li.tlp::before {
   content: "\f40c";
   font-size: 20px;
   color: #25D366;
+  font-family: "Font Awesome 7 Brands";
 }
 
 li.git::before {

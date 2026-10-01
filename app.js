@@ -170,7 +170,7 @@ links.forEach(function(link) {
 </li>
 
 <li class="git">
-<a href="#" class=>Makbarooodev</a>
+<a href="#" class="">Makbarooodev</a>
 </li>
 
 <li class="almt">

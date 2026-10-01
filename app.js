@@ -158,7 +158,7 @@ links.forEach(function(link) {
 
 <div class="card-contact">
 
-
+<div>
 <h4>Muhammad Akbar Oktabian</h4>
 
 <a href="#">+62 838 2738 2781</a>

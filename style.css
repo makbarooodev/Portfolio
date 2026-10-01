@@ -475,7 +475,7 @@ img {
 
 li {
   list-style: none;
-  font-size: ;
+  font-size: 15px;
 }
 
 li::before {

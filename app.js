@@ -168,7 +168,7 @@ links.forEach(function(link) {
 </li>
 
 <li class="git">
-<a href="#">Makbarooodev</a>
+<a href="">Makbarooodev</a>
 </li>
 
 <li class="almt">

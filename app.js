@@ -163,7 +163,7 @@ links.forEach(function(link) {
 <h4>Muhammad Akbar Oktabian</h4>
 <ul>
 
-<li class>
+<li class="">
 <a href="#">+62 838 2738 2781</a>
 </li>
 

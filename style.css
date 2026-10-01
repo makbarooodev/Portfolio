@@ -491,7 +491,7 @@ li a {
 
 .wa {
   color: black;
-  tran
+  transition: 0.3s;
 }
 
 li {

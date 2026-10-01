@@ -164,7 +164,7 @@ links.forEach(function(link) {
 <ul>
 <li>
 <a href="#">+62 838 2738 2781</a>
-</>
+</li>
 <a href="#">Makbarooodev</a>
 <br>
 <a href="#">Generastik plastik, bandung, indonesia.</a>

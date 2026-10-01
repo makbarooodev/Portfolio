@@ -174,6 +174,7 @@ links.forEach(function(link) {
 <li>
 <a href="#">Generastik plastik, bandung, indonesia.</a>
 </li>
+
 <li>
 <a href="#">makbarooo2009@gmail.com</a>
 </li>

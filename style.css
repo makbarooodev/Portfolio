@@ -526,7 +526,7 @@ li a {
 }
 
 .email:hover {
-  color: ;
+  color: hwb(195 4% 7%);
   text-shadow: 0 0 10px hwb(195 4% 7%);
 }
 

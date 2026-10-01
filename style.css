@@ -507,4 +507,9 @@ img {
   .about-english p {
     padding: 0;
   }
+
+  .box-about h2 {
+  margin: 50px 0 20px;
+  user-select: none;
+  }
 }

@@ -482,7 +482,7 @@ img {
 
 li {
   list-style: none;
-  
+  outline: 2px solid red;
 }
 
 li::before {

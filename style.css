@@ -519,7 +519,7 @@ li.git::before {
 
 li.almt::before {
   content: "📍";
-  margin-right: -3;
+  margin-right: -3px;
   font-size: 20px;
   color: red;
 }

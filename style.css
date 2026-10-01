@@ -483,6 +483,8 @@ li::before {
   margin-right: 8px;
 }
 
+
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

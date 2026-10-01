@@ -525,8 +525,6 @@ li.git::before {
   color: black;
 }
 
-
-
 li.gmail::before {
   content: "\f0e0";
   font-family: "Font Awesome 7 Free";

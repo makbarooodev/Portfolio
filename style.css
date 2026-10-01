@@ -514,7 +514,7 @@ li.git::before {
 li.almt::before {
   content: "\f3c5";
   font-size: 20px;
-  color: 
+  color: ;
 }
 li.gmail::before {
   content: "\f0e0";

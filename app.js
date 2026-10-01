@@ -168,6 +168,8 @@ links.forEach(function(link) {
 <br>
 <a href="#">makbarooo2009@gmail.com</a>
 
+<img src="img/pass-photo.jpg" alt="Muhammad Akbar Oktabian in junior high school">
+
 </div>
 
 </section>

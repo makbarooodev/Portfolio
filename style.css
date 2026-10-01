@@ -554,7 +554,9 @@ li.git::before {
   color: black;
 }
 
-li.dom::before
+li.dom::before {
+  display: none;
+}
 
 li i {
   vertical-align: middle;

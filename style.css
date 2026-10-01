@@ -474,6 +474,7 @@ img {
   box-shadow: 5px 5px -0px grey;
   text-align: right;
   flex-shrink: 0;
+  outline: ;
 }
 
 .card-contact h4 {

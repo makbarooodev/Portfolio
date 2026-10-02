@@ -6,7 +6,7 @@ const projects = [
   "https://makbarooo.pages.dev"
 ];
 
-const API_KEY = "API_KEY_URLBOX_KAMU";
+const API_KEY = "";
 
 const imgs = document.querySelectorAll(".preview");
 

@@ -155,7 +155,7 @@ links.forEach(function(link) {
 </li>
 
 <li class="git">
-<a href="https://github.com/makbarooodev/Portfolio" class="hub">Makbarooodev</a>
+<a href="https://github.com/makbarooodev" class="hub">Makbarooodev</a>
 </li>
 
 <li class="almt">

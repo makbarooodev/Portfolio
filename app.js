@@ -6,53 +6,24 @@ const projects = [
   "https://makbarooo.pages.dev"
 ];
 
+const API_KEY = "API_KEY_URLBOX_KAMU";
+
 const imgs = document.querySelectorAll(".preview");
 
-imgs.forEach(async (img, index) => {
+imgs.forEach((img, index) => {
 
-  img.alt = "Memulai...";
+  const url = encodeURIComponent(projects[index]);
 
-  const endpoint = new URL(
-    "https://api.webstractor.com/v1/screenshot"
-  );
+  const screenshot = 
+    `https://api.urlbox.com/v1/${API_KEY}/png` +
+    `?url=${url}` +
+    `&width=1280` +
+    `&height=720`;
 
-  endpoint.searchParams.set("url", projects[index]);
-  endpoint.searchParams.set("width", "1280");
-  endpoint.searchParams.set("height", "720");
-  endpoint.searchParams.set("format", "png");
+  img.src = screenshot;
 
-  img.alt = "Mengirim request...";
+  img.alt = "Preview project";
 
-  try {
-
-    const response = await fetch(endpoint, {
-      headers: {
-        Authorization: "Bearer API_KEY_KAMU"
-      }
-    });
-
-    img.alt = `Response: ${response.status}`;
-
-    if (!response.ok) {
-      const errorText = await response.text();
-
-      img.alt = `Error ${response.status}: ${errorText}`;
-      return;
-    }
-
-    img.alt = "Mengambil gambar...";
-
-    const blob = await response.blob();
-
-    img.src = URL.createObjectURL(blob);
-
-    img.alt = "Screenshot berhasil!";
-
-  } catch (error) {
-
-    img.alt = `FETCH ERROR: ${error.message}`;
-
-  }
 });
 
 const links = document.querySelectorAll("nav a");

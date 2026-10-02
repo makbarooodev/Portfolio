@@ -22,8 +22,6 @@ imgs.forEach((img, index) => {
 
   img.src = screenshot;
 
-  img.alt = "Preview project";
-
 });
 
 const links = document.querySelectorAll("nav a");

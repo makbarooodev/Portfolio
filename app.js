@@ -15,7 +15,7 @@ imgs.forEach((img, index) => {
   const url = encodeURIComponent(projects[index]);
 
   const screenshot = 
-    `https://api.urlbox.om/v1/${API_KEY}/png` +
+    `https://api.urlbox.com/v1/${API_KEY}/png` +
     `?url=${url}` +
     `&width=1280` +
     `&height=720`;

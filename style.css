@@ -460,7 +460,9 @@ img {
   user-select: none;
 }
 
-.card
+.card-contact {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

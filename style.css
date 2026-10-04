@@ -463,7 +463,7 @@ img {
 .card-contact {
   background-color:white;
   display: flex;
-  gap: ;
+  gap: 10px;
 }
 
 @media (orientation: landscape) {

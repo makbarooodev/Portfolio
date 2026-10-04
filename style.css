@@ -472,7 +472,8 @@ img {
 }
 
 .list-contact a, 
-.list-contact h4, {
+.list-contact h4,
+.{
   color: black;
 }
 

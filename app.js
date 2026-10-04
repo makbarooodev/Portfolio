@@ -164,10 +164,6 @@ links.forEach(function(link) {
 <i class="fa-regular fa-envelope"></i>
 </a>
 
-<a href="#">
-
-</a>
-
 </div>
 
 <img src="img/pass-photo.jpg" alt="Muhammad Akbar Oktabian in junior high school">

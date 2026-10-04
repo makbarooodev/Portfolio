@@ -157,7 +157,7 @@ links.forEach(function(link) {
 </a>
 
 <a href="#">
-
+<i class="fa-solid fa-location-dot"></i>
 </a>
 
 <a href="#">

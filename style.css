@@ -463,7 +463,7 @@ img {
 .card-contact {
   background-color:white;
   display: flex;
-  gap: px;
+  gap: 20px;
   margin: 15px;
   padding: 15px;
   color: black;

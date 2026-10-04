@@ -474,7 +474,7 @@ img {
 
 .list-contact {
   color: black;
-  box
+  box-shadow: 0 0 10px black;
 }
 
 @media (orientation: landscape) {

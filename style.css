@@ -473,7 +473,9 @@ img {
   height: auto;
 }
 
-
+.list-contact {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

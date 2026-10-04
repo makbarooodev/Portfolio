@@ -161,7 +161,7 @@ links.forEach(function(link) {
 </a>
 
 <a href="#">
-
+<i class="fa-regular fa-envelope"></i>
 </a>
 
 <a href="#">

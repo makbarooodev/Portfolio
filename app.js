@@ -150,6 +150,7 @@ links.forEach(function(link) {
 
 <a href="#">
 <i class="fa-brands fa-whatsapp"></i>
+
 </a>
 
 <a href="#">

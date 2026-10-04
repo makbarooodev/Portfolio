@@ -460,10 +460,6 @@ img {
   user-select: none;
 }
 
-  font-size: 20px;
-  color: hwb(195 4% 7%);
-}
-
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

@@ -165,6 +165,7 @@ Bandung, indonesia.
 
 <a href="#">
 <i class="fa-regular fa-envelope"></i>
+makbarooo2009@gmail.com
 </a>
 
 </div>

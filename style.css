@@ -465,7 +465,7 @@ img {
   display: flex;
   gap: 10px;
   margin: 20px;
-  
+  color: black;
 }
 
 .card-contact img {

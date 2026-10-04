@@ -471,9 +471,7 @@ img {
   height: auto;
 }
 
-.list-contact {
-  color: black;
-}
+
 
 @media (orientation: landscape) {
   .box-header img {

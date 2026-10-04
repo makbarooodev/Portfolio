@@ -462,8 +462,6 @@ img {
 
 .card-contact {
   background-color:white;
-  display: flex;
-  gap: 10px;
   margin: 20px;
   color: black;
 }

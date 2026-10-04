@@ -473,7 +473,9 @@ img {
   height: auto;
 }
 
-list-contact
+.list-contact {
+  line-height: ;
+}
 
 .list-contact a, 
 .list-contact h4 {

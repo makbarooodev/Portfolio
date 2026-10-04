@@ -150,7 +150,7 @@ links.forEach(function(link) {
 
 <a href="#">
 <i class="fa-brands fa-whatsapp"></i>
-+62 
++62 838 2738 2781
 </a>
 
 <a href="#">

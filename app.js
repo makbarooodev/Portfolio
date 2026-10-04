@@ -148,30 +148,7 @@ links.forEach(function(link) {
 <h4>Muhammad Akbar Oktabian</h4>
 <ul>
 
-<li class="tlp">
-<a href="https://wa.me/6283827382781" class="wa">
-+62 838 2738 2781
-</a>
-</li>
 
-<li class="git">
-<a href="https://github.com/makbarooodev" class="hub">
-Makbarooodev
-</a>
-</li>
-
-<li class="almt">
-<i class="ph-fill ph-map-pin" color: red;></i>
-<a href="#" class="dom">bandung, indonesia.</a>
-</li>
-
-<li class="gmail">
-<a href="mailto:makbarooo2009@gmail.com" class="email">
-makbarooo2009@gmail.com
-</a>
-</li>
-
-</ul>
 
 </div>
 

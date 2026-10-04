@@ -472,6 +472,8 @@ img {
   height: auto;
 }
 
+.list
+
 @media (orientation: landscape) {
   .box-header img {
     width: 500px;

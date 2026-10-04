@@ -160,7 +160,7 @@ Makbarooodev
 
 <a href="#">
 <i class="fa-solid fa-location-dot"></i>
-
+Bandung
 </a>
 
 <a href="#">

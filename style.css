@@ -479,7 +479,7 @@ img {
 
 .tlp:hover {
   color: #25D366;
-  -shadow: 0 0 10px #25D366;
+  te-shadow: 0 0 10px #25D366;
 }
 
 .list-contact a {

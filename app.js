@@ -162,7 +162,7 @@ Makbarooodev
 Bandung, indonesia.
 </a>
 <br>
-<a href="#">
+<a href="#" >
 <i class="fa-regular fa-envelope"></i>
 makbarooo2009@gmail.com
 </a>

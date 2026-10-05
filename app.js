@@ -147,7 +147,7 @@ links.forEach(function(link) {
 
 <h4>Muhammad Akbar Oktabian</h4>
 
-<a href="#" class=>
+<a href="#" class="">
 <i class="fa-brands fa-whatsapp"></i>
 +62 838 2738 2781
 </a>

@@ -145,7 +145,7 @@ links.forEach(function(link) {
 
 <div class="list-contact">
 
-<h4>Muhammad Akbar Oktabian</h3>
+<h>Muhammad Akbar Oktabian</h3>
 
 <a href="#">
 <i class="fa-brands fa-whatsapp"></i>

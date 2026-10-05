@@ -461,7 +461,6 @@ img {
 }
 
 .card-contact {
-  outline: 2px solid white;
   display: flex;
   gap: 15px;
   margin: 15px;

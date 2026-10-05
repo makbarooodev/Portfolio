@@ -462,7 +462,7 @@ img {
 
 .card-contact {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   margin: 5px;
   padding: 15px;
 }

@@ -477,7 +477,10 @@ img {
   line-height: 2.2;
 }
 
-d
+.tlp:hover {
+  color: #25D366;
+  text-shadow: 0 0 10px #25D366;
+}
 
 .list-contact a {
   color: white;

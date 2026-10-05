@@ -152,7 +152,7 @@ links.forEach(function(link) {
 +62 838 2738 2781
 </a>
 <br>
-<a href="#" class="">
+<a href="#" class="git">
 <i class="fa-brands fa-github"></i>
 Makbarooodev
 </a>

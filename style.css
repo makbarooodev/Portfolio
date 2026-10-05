@@ -489,7 +489,7 @@ img {
 
 .loc:hover {
   color: red;
-  text-shadow: 0 0 10px #25D366;
+  text-shadow: 0 0 10px red;
 }
 
 .mail:hover {

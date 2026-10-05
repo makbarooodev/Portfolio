@@ -478,8 +478,7 @@ img {
   line-height: 2.2;
 }
 
-.list-contact a, 
-.list-contact h4 {
+.list-contact a {
   color: white;
   font-size: 15px;
 }

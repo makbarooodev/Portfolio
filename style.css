@@ -484,7 +484,7 @@ img {
 
 .git:hover {
   color: black;
-  text-shadow: 0 0 10px #25D366;
+  text-shadow: 0 0 10px white;
 }
 
 .loc:hover {

@@ -157,7 +157,7 @@ links.forEach(function(link) {
 Makbarooodev
 </a>
 <br>
-<a href="#" >
+<a href="#" class="loc">
 <i class="fa-solid fa-location-dot"></i>
 Bandung, indonesia.
 </a>

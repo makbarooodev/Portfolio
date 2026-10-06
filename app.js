@@ -200,7 +200,7 @@ Select a purpose
 
 <input type="text" name="name" placeholder="Name">
 
-<textarea
+<textarea type></textarea>
 
 </div>
 

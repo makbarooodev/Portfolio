@@ -184,6 +184,8 @@ makbarooo2009@gmail.com
 
 <option name="input-type" class="option">
 <select value="wa"></select>
+<select value="wa"></select>
+<select value="wa"></select>
 </option>
 
 </div>

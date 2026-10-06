@@ -461,7 +461,6 @@ img {
 }
 
 .card-contact {
-  position: relative;
   display: flex;
   gap: 30px;
   margin: 5px;

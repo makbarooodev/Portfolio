@@ -512,7 +512,8 @@ img {
 }
 
 .input-critics {
-  background-color: var(--ungu)
+  background-color: var(--ungu);
+  padding: 10px;
 }
 
 @media (orientation: landscape) {

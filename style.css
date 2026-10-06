@@ -467,7 +467,7 @@ img {
 }
 
 .card-contact img {
-  position: absolut;
+  position: absolute;
   float: right;
   margin-top: 5px;
   width: 125px;

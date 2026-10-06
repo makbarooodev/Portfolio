@@ -182,7 +182,7 @@ makbarooo2009@gmail.com
 
 <div class="input-critics">
 
-<select name="input-type" re>
+<select name="input-type" required>
 
 <option value="" disabled selected>
 Select a purpose

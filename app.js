@@ -198,7 +198,7 @@ Select a purpose
 
 </select>
 
-<input type="text" name="name" placeholder="">
+<input type="text" name="name" placeholder="Name">
 
 </input>
 

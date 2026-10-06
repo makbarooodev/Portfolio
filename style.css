@@ -554,7 +554,7 @@ img {
   max-width: 100%;
   min-width: 100%;
   field-sizing: content;
-  
+  -webkit-tap-highlight-color: transparent;
 }
 
 .input-critics .input-message::placeholder {

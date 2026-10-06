@@ -182,7 +182,7 @@ makbarooo2009@gmail.com
 
 <div class="input-critics">
 
-<label for="input-type">Select a purpose</label>
+<label for="input-type">Purpose</label>
 
 <select name="input-type">
 

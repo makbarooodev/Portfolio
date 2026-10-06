@@ -522,6 +522,7 @@ img {
 .input-critics .input-option {
   padding: 10px 20px;
   color: black;
+  appearance: none;
 }
 .input-critics .input-name {
   

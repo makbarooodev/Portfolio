@@ -183,7 +183,7 @@ makbarooo2009@gmail.com
 <div class="input-critics">
 
 <option name="input-type" class="option">
-<select value=""></select>
+<select value="wa"></select>
 </option>
 
 </div>

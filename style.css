@@ -551,7 +551,7 @@ img {
   text-align: center;
   background: transparent;
   border-bottom: 2px solid white;
-  padding: 10px 0px;
+  padding: 0;
   max-width: 100%;
   min-width: 100%;
   field-sizing: content;

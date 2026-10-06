@@ -209,6 +209,7 @@ placeholder="Write your feedback" required>
 
 <button type="submit">submit</button>
 
+</form>
 
 </div>
 

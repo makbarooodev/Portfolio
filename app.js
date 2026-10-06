@@ -211,7 +211,7 @@ placeholder="Write your feedback" required>
 
 <br>
 
-<button classtype="submit">submit</button>
+<button class="type="submit">submit</button>
 
 </form>
 

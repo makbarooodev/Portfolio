@@ -198,7 +198,7 @@ Select a purpose
 
 </select>
 
-<input type="text" name></input>
+<input type="text" name="name"></input>
 
 </div>
 

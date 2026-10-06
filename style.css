@@ -34,7 +34,7 @@ html, body {
 html:focus {
   outline: none;
   box-shadow: none;
-  
+  -webkit-tap-highlight-color: transparent;
 }
 
 main {

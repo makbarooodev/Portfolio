@@ -175,7 +175,7 @@ makbarooo2009@gmail.com
 
 <div class="box-critics">
 
-<di></div>
+<div class=></div>
 
 </div>
 

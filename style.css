@@ -519,7 +519,9 @@ img {
   line-height: 2.0;
 }
 
-.input-critics .input-
+.input-critics .input-option {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

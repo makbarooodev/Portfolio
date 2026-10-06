@@ -185,7 +185,6 @@ makbarooo2009@gmail.com
 <select name="input-type">
 
 <label for="input-type">Select a purpose</label>
-<option value="" disable selected>purpose</option>
 <option value="wa">WhatsApp</option>
 <option value="mail">Email</option>
 <option value="sms">SMS</option>

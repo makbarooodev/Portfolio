@@ -207,7 +207,7 @@ class="input-message"
 placeholder="Write your feedback" required>
 </textarea>
 
-<button type="submit"></button>
+<button type="submit">submit</button>
 
 </div>
 

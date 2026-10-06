@@ -198,7 +198,7 @@ Select a purpose
 
 <br>
 
-<input class="input-name" type="text" name="name" placeholder="Name">
+<input class="input-name" type="text" name="name" placeholder="Name" req>
 
 <br>
 

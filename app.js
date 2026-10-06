@@ -182,9 +182,10 @@ makbarooo2009@gmail.com
 
 <div class="input-critics">
 
+<label for="input-type">Select a purpose</label>
+
 <select name="input-type">
 
-<label for="input-type">Select a purpose</label>
 <option value="wa">WhatsApp</option>
 <option value="mail">Email</option>
 <option value="sms">SMS</option>

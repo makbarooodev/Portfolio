@@ -508,7 +508,7 @@ img {
 }
 
 form {
-  flex- column;
+  flex-wrap:  column;
   color: black;
 }
 

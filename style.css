@@ -493,7 +493,7 @@ img {
 }
 
 .mail:hover {
-  color: cyan;
+  color: hwb(180 45% 0%);
   text-shadow: 0 0 10px hwb(180 45% 0%);
 }
 

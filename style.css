@@ -528,6 +528,7 @@ img {
   background: transparent;
 }
 .input-critics .input-name {
+  text-align: center;
   width: 100%;
   height: 100px;
 }

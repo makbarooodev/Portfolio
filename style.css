@@ -530,7 +530,7 @@ img {
 
 .input-critics .input-name {
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid ;
   background: transparent;
   color: white;
   text-align: center;

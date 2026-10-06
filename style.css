@@ -512,7 +512,7 @@ img {
 }
 
 .input-critics {
-  background-color: var(-)
+  background-color: var(--ungu)
 }
 
 @media (orientation: landscape) {

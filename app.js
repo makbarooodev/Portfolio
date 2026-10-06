@@ -178,7 +178,7 @@ makbarooo2009@gmail.com
 
 <div class="box-critics">
 
-<h2>Criticism &<br>Suggestions</h3>
+<h2>Criticism &<br>Suggestions</h2>
 
 <div class="input-critics">
 

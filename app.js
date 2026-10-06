@@ -184,7 +184,7 @@ makbarooo2009@gmail.com
 
 <select name="input-type">
 
-<option value="" disa></option>
+<option value="" disable selected></option>
 <option value="wa">WhatsApp</option>
 <option value="mail">Email</option>
 <option value="sms">SMS</option>

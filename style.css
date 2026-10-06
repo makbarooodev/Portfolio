@@ -469,7 +469,7 @@ img {
 }
 
 .card-contact img {
-  posi
+  position: inherit;
   margin-top: 5px;
   width: 125px;
   height: 165px;

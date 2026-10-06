@@ -461,10 +461,11 @@ img {
 }
 
 .card-contact {
-  position: relative;
   margin: 5px;
   padding: 15px;
 }
+
+list-contact
 
 .card-contact img {
   position: absolute;

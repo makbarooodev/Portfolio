@@ -554,7 +554,9 @@ img {
   field-sizing: content;
 }
 
-.input-critics .input-message:::placeholder
+.input-critics .input-message::placeholder {
+  font
+}
 
 .input-critics .input-submit {
   

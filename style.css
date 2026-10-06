@@ -33,7 +33,7 @@ html, body {
 
 html:focus {
   outline: none;
-  box
+  box-shadow: none;
 }
 
 main {

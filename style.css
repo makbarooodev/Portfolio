@@ -494,7 +494,7 @@ img {
 
 .mail:hover {
   color: cyan;
-  text-shadow: 0 0 10px cyan;
+  text-shadow: 0 0 10px hwb(180 45% 0%);
 }
 
 .list-contact a {

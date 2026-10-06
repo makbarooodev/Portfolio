@@ -488,7 +488,7 @@ img {
 }
 
 .loc:hover {
-  color: red;
+  color: hwb(0 19% 0%);
   text-shadow: 0 0 10px hwb(0 19% 0%);
 }
 

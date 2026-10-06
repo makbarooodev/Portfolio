@@ -508,7 +508,7 @@ img {
 }
 
 .input-critics {
-  fle
+  flex-flow: ;
   color: black;
 }
 

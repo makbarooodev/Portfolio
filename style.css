@@ -541,7 +541,7 @@ img {
 
 .input-critics .input-name::placeholder {
   font-size: 20px;
-  color: grey
+  color: grey;
 }
 
 .input-critics .input-message {

@@ -508,7 +508,7 @@ img {
 }
 
 .input-critics {
-  color
+  color: black;
 }
 
 @media (orientation: landscape) {

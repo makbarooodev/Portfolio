@@ -549,7 +549,7 @@ img {
   background: transparent;
   border-bottom: 2px solid white;
   max-width: 100%;
-  min-width: ;
+  min-width: 100%;
   field-sizing: content;
 }
 .input-critics .input-submit {

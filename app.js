@@ -186,7 +186,7 @@ makbarooo2009@gmail.com
 
 <select name="input-type">
 
-<option value="" disable selected>
+<option value="" disabled selected>
 Select a purpose
 </option>
 

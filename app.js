@@ -182,6 +182,7 @@ makbarooo2009@gmail.com
 
 <div class="input-critics">
 
+<form>
 
 <select name="input-type" required>
 

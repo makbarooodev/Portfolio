@@ -31,7 +31,7 @@ html, body {
   overflow-y: auto;
 }
 
-html:foc
+html::focus
 
 main {
   padding-top: 45px;

@@ -539,7 +539,7 @@ img {
   margin: 15px 0px;
 }
 
-.input-critics .input-name:placeholder {
+.input-critics .input-name::placeholder {
   font-size: 1px;
 }
 

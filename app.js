@@ -200,7 +200,7 @@ Select a purpose
 
 <input class="input-name" type="text" name="name" placeholder="Name">
 
-
+<br>
 
 <textarea 
 class="input-message" 

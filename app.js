@@ -212,7 +212,7 @@ placeholder="Write your feedback" required>
 <br>
 
 <button class="input-submit" type="submit">
-Submit
+Send
 </button>
 
 </form>

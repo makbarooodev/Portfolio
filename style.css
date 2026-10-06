@@ -31,12 +31,6 @@ html, body {
   overflow-y: auto;
 }
 
-html:focus {
-  outline: none;
-  box-shadow: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
 main {
   padding-top: 45px;
 }

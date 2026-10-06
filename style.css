@@ -461,16 +461,14 @@ img {
 }
 
 .card-contact {
+  position: relative;
+  display: flex;
+  gap: 30px;
   margin: 5px;
   padding: 15px;
 }
 
-.list-contact {
-  position: relative;
-}
-
 .card-contact img {
-  float: right;
   margin-top: 5px;
   width: 125px;
   height: 165px;

@@ -186,8 +186,8 @@ makbarooo2009@gmail.com
 <option value="wa">WhatsApp</option>
 <option value="mail">Email</option>
 <option value="sms">SMS</option>
-      <option value="dis">Discord</option>
-      <option value="ig">Instagram</option>
+<option value="dis">Discord</option>
+<option value="ig">Instagram</option>
     </select>
 
 </div>

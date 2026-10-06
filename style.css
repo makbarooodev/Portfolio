@@ -516,7 +516,7 @@ img {
   background-color: var(--ungu);
   padding: 20px;
   border-radius: 20px;
-  line-height: 20;
+  line-height: 20px;
 }
 
 @media (orientation: landscape) {

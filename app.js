@@ -204,7 +204,7 @@ Select a purpose
 
 <textarea 
 class="input-message" 
-placeholder="Write your feedback" re>
+placeholder="Write your feedback" required>
 </textarea>
 
 <button type="submit"></button>

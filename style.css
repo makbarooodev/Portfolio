@@ -544,7 +544,7 @@ img {
 }
 
 .input-critics .input-message {
-  jus-items: center;
+  justify-items-items: center;
   text-align: center;
   background: transparent;
   border-bottom: 2px solid white;

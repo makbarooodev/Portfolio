@@ -543,7 +543,7 @@ img {
   font-size: 20px;
 }
 
-.input-critics text {
+.input-critics textarea {
   field-sizing: content;
   border: none;
   text-align: center;

@@ -173,7 +173,7 @@ makbarooo2009@gmail.com
 
 </div>
 
-<div class="box-c">
+<div class="box-critics">
 
 </div>
 

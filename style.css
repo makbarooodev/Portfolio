@@ -507,7 +507,9 @@ img {
   font-size: 20px;
 }
 
-.input-critics
+.input-critics {
+  color
+}
 
 @media (orientation: landscape) {
   .box-header img {

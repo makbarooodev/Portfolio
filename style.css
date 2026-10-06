@@ -515,7 +515,7 @@ img {
   margin-top: 10px;
   background-color: var(--ungu);
   padding: 10px;
-  border
+  border-radius: 
 }
 
 @media (orientation: landscape) {

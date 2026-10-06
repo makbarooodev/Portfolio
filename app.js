@@ -184,7 +184,7 @@ makbarooo2009@gmail.com
 
 <form>
 
-<select name="input-type" class= required>
+<select name="input-type" class="" required>
 
 <option value="" disabled selected>
 Select a purpose

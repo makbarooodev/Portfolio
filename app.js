@@ -183,7 +183,7 @@ makbarooo2009@gmail.com
 <div class="input-critics">
 
 <select name="input-type">
-      <option value="wa">WhatsApp</option>
+<option value="wa">WhatsApp</option>
       <option value="mail">Email</option>
       <option value="sms">SMS</option>
       <option value="dis">Discord</option>

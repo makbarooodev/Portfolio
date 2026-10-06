@@ -524,7 +524,7 @@ img {
   color: black;
   appearance: none;
   border-radius: 10px;
-  outline: 1px solid;
+  outline: 1px ;
 }
 .input-critics .input-name {
   

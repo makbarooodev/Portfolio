@@ -554,6 +554,7 @@ img {
   max-width: 100%;
   min-width: 100%;
   field-sizing: content;
+  
 }
 
 .input-critics .input-message::placeholder {

@@ -182,13 +182,13 @@ makbarooo2009@gmail.com
 
 <div class="input-critics">
 
-<option name="input-type" class="option">
-<select value="wa"></select>
-<select value="mail"></select>
-<select value="sms"></select>
-<select value="dis"></select>
-<select value="ig"></select>
-</option>
+<select name="input-type">
+      <option value="wa">WhatsApp</option>
+      <option value="mail">Email</option>
+      <option value="sms">SMS</option>
+      <option value="dis">Discord</option>
+      <option value="ig">Instagram</option>
+    </select>
 
 </div>
 

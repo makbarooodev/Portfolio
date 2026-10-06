@@ -184,7 +184,7 @@ makbarooo2009@gmail.com
 
 <option name="input-type" class="option">
 <select value="wa"></select>
-<select value=""></select>
+<select value="mail"></select>
 <select value="wa"></select>
 </option>
 

@@ -190,7 +190,7 @@ makbarooo2009@gmail.com
 Select a purpose
 </option>
 
-<option value="wa">WhatsApp</option>
+<option value="wa"><i class="fa-brands fa-whatsapp"></i>WhatsApp</option>
 <option value="mail">Email</option>
 <option value="sms">SMS</option>
 <option value="dis">Discord</option>

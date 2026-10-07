@@ -394,7 +394,7 @@ img {
 
 .box-about #to-home {
   position: fixed;
-  text-shadow: 2.5px 5px 5px hwb(180 45% 0%);
+  text-shadow: 2.5px 2.5px 5px hwb(180 45% 0%);
   top: 60px;
   left: 10px;
   z-index: 1;

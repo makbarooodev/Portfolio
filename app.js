@@ -12,9 +12,15 @@ const imgs = document.querySelectorAll(".preview");
 
 imgs.forEach((img, index) => {
 
-  const url = encodeURIComponent(projects[index]);
+  const refresh = Date.now();
 
-  const screenshot = 
+  const target = new URL(projects[index]);
+
+  target.searchParams.set("preview", refresh);
+
+  const url = encodeURIComponent(target.toString());
+
+  const screenshot =
     `https://api.urlbox.com/v1/${API_KEY}/png` +
     `?url=${url}` +
     `&width=1280` +

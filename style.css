@@ -531,7 +531,7 @@ img {
 
 .input-critics .input-name {
   border: none;
-  border-radius: 10px;
+  border-radius: 10px 0;
   border: 2px solid white;
   background: transparent;
   color: white;

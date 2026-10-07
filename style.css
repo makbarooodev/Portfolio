@@ -575,7 +575,7 @@ img {
 }
 
 .input-critics .input-submit {
-  padd
+  padding: 10px;
 }
 
 @media (orientation: landscape) {

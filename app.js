@@ -392,7 +392,6 @@ Send
         </div>
 
       </div>
-    </section>
 
 </div>
 

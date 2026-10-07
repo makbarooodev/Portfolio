@@ -566,6 +566,7 @@ img {
 
 .input-critics .input-name::placeholder {
   color: hwb(0 100% 0%);
+  
 }
 
 .input-critics .input-message {

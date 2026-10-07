@@ -305,7 +305,7 @@ Send
 
         if (page === "project") {
             main.innerHTML = `
-<section class="box">
+<section class="box-">
 
 <div></div>
 

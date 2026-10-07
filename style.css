@@ -474,7 +474,7 @@ img {
 
 .card-contact {
   outline: 2px solid red;
-  justify-items: center;
+  justify-content: center;
   min-width: 100%;
   max-width: 100%;
   display: flex;

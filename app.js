@@ -306,8 +306,6 @@ Send
         if (page === "project") {
             main.innerHTML = `
             
-            
-            
             `;
         }
     });

@@ -537,7 +537,7 @@ img {
   color: white;
   appearance: none;
   border-radius: 10px;
-  outline: 1px solid white;
+  outline: 1px dashed white;
   background: transparent;
   transition: 0.3s ease;
   font-weight: 700;

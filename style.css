@@ -474,7 +474,7 @@ img {
 
 .card-contact {
   min-width: 100%;
-  max-width: 100;
+  max-width: 100%;
   display: flex;
   gap: 35px;
   margin: 5px;

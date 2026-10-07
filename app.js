@@ -6,7 +6,7 @@ const projects = [
   "https://project-5.pages.dev"
 ];
 
-const API_KEY = "GANTI_DENGAN_API_KEY_BARU";
+const API_KEY = "ubx_MEJHUwo4TzIMs3kB";
 
 const imgs = document.querySelectorAll(".preview");
 

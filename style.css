@@ -30,7 +30,7 @@ html, body {
   overflow-x: hidden;
   overflow-y: auto;
   body {
-  cursor: url("img/cir"), auto;
+  cursor: url("img/circle-foto"), auto;
   }
 }
 

@@ -1,9 +1,5 @@
 const projects = [
   "https://makbarooo.pages.dev",
-  "https://project-2.pages.dev",
-  "https://project-3.pages.dev",
-  "https://project-4.pages.dev",
-  "https://project-5.pages.dev"
 ];
 
 const API_KEY = "ubx_MEJHUwo4TzIMs3kB";

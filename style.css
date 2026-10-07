@@ -549,7 +549,7 @@ img {
   border: none;
   text-align: center;
   background: transparent;
-  border-bottom: 2px solid white;
+  border: 2px solid white;
   padding: 0;
   max-width: 100%;
   min-width: 100%;

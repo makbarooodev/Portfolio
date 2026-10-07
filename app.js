@@ -275,6 +275,7 @@ Select a purpose
 type="text" 
 name="name" 
 placeholder="Name" 
+
 required>
 
 <br>

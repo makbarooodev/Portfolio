@@ -577,7 +577,6 @@ img {
 .input-critics .input-submit {
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 5px black;
   color: lab(0% 0 0);
   background-color: whote;
   font-size: 20px;

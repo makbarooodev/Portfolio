@@ -304,7 +304,8 @@ Send
         }
 
         if (page === "project") {
-            main.innerHTML = ``
+            main.innerHTML = `
+            
             `;
         }
     });

@@ -561,7 +561,7 @@ img {
 }
 
 .input-critics .input-message::placeholder {
-  color: grey;
+  color: hwb(0 69% 31%);
 }
 
 .input-critics .input-submit {

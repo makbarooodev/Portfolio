@@ -590,7 +590,7 @@ img {
 }
 
 .input-submit i {
-  vertical-align: bottom;
+  vertical-align: text-bottom;
   color: black;
   margin-left: 5px;
 }

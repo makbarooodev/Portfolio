@@ -307,7 +307,10 @@ Send
             main.innerHTML = `
 <section class="box-projects">
 
-<div></div>
+<div>
+
+
+</div>
 
 </section>
             `;

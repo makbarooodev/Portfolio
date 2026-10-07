@@ -160,7 +160,7 @@ Makbarooodev
 <br>
 <a href="#" class="loc">
 <i class="fa-solid fa-location-dot"></i>
-Bandung, indonesia.
+Bandung, Indonesia.
 </a>
 <br>
 <a href="#" class="mail">

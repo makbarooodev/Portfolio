@@ -581,7 +581,8 @@ img {
   color: hwb(0 100% 0%);
   background: transparent;
   font-size: 15px;
-  padding: 7px 20px;
+  p
+    adding: 7px 20px;
 }
 
 @media (orientation: landscape) {

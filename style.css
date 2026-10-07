@@ -512,7 +512,6 @@ img {
 }
 
 .input-critics {
-  position: relative;
   margin-top: 10px;
   background-color: var(--ungu-tua);
   padding: 20px;

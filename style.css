@@ -547,6 +547,7 @@ img {
   color: black;
   outline: none;
   transform: scale(1.05);
+  font-weight: 700;
 }
 
 .input-critics .input-name {

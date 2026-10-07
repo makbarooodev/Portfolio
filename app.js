@@ -213,7 +213,7 @@ placeholder="Write your feedback" required>
 
 <button class="input-submit" type="submit">
 Send
-
+<i class="ph-fill ph-paper-plane-right"></i>
 </button>
 
 </form>

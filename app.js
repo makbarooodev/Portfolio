@@ -276,6 +276,7 @@ type="text"
 name="name" 
 placeholder="Name" 
 min-length="1"
+max-length
 required>
 
 <br>

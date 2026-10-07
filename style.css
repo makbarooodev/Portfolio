@@ -584,7 +584,9 @@ img {
   padding: 7px 20px;
 }
 
-.input
+.input-submit i {
+  ver
+}
 
 @media (orientation: landscape) {
   .box-header img {

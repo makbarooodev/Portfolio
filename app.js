@@ -60,7 +60,6 @@ links.forEach(function(link) {
 
       <h2>About Me</h2>
 
-      <!-- English Version -->
       <section class="about-english">
 
         <h3>Frontend Developer &amp; Web Designer</h3>

@@ -3,7 +3,6 @@ const projects = [
   "https://makbarooo.pages.dev",
   "https://makbarooo.pages.dev",
   "https://makbarooo.pages.dev",
-  "https://makbarooo.pages.dev",
   "https://makbarooo.pages.dev"
 ];
 

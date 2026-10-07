@@ -532,7 +532,8 @@ img {
 
 .input-critics .input-option:hover {
   background-color: hwb(0 100% 0%);
-  color
+  color: black;
+  outline: none;
 }
 
 .input-critics .input-name {

@@ -62,67 +62,107 @@ links.forEach(function(link) {
 
       <section class="about-english">
 
-        <h3>Frontend Developer &amp; Web Designer</h3>
+  <header>
+    <h3>Frontend Developer &amp; Web Designer</h3>
 
-        <br>
+    <p>
+      I build
+      <strong>responsive, visually engaging, and interactive websites</strong>
+      with a strong focus on visual design, user experience, and interface details.
+    </p>
+  </header>
 
-        <p>
-          I am a Frontend Developer &amp; Web Designer focused on creating
-          responsive, visually engaging, and interactive web experiences.
-        </p>
 
-        <br>
+  <section>
+    <h4>What I Do</h4>
 
-        <p>
-          I approach projects from a visual perspective. Before implementing
-          a website, I often develop illustrations or design concepts first,
-          allowing me to build interfaces with a clear visual direction
-          rather than simply writing code.
-        </p>
+    <ul>
+      <li>Build responsive websites with HTML and CSS</li>
+      <li>Design clean and engaging web interfaces</li>
+      <li>Create visual concepts and illustrations</li>
+      <li>Develop smooth animations and interactions</li>
+      <li>Adapt interfaces across different screen sizes</li>
+      <li>Test and refine website functionality</li>
+    </ul>
+  </section>
 
-        <br>
 
-        <p>
-          My strengths are in
-          <strong>
-            visual design, responsive layouts, smooth animations,
-            and attention to interface details
-          </strong>.
-          I also pay attention to how a website actually behaves by testing
-          interactions, checking functionality, and reviewing the interface
-          across different screen sizes.
-        </p>
+  <section>
+    <h4>Skills</h4>
 
-        <br>
+    <ul>
+      <li>
+        <strong>Frontend:</strong>
+        HTML, CSS, responsive layouts
+      </li>
 
-        <p>
-          When working with code, I approach problems systematically.
-          I carefully trace my code from top to bottom to identify
-          inconsistencies and reduce avoidable errors. When something
-          doesn't work as expected, I'm willing to revise, restructure,
-          or rebuild parts of the project to achieve a cleaner result.
-        </p>
+      <li>
+        <strong>UI &amp; Visual Design:</strong>
+        interface design, visual composition, illustrations
+      </li>
 
-        <br>
+      <li>
+        <strong>Motion Design:</strong>
+        animations, transitions, interaction concepts
+      </li>
 
-        <p>
-          I already have experience building and deploying my own websites,
-          maintaining projects through GitHub, and developing designs and
-          illustrations alongside the implementation.
-        </p>
+      <li>
+        <strong>Problem Solving:</strong>
+        debugging, code organization, systematic development
+      </li>
 
-        <br>
+      <li>
+        <strong>Deployment &amp; Version Control:</strong>
+        GitHub, website deployment
+      </li>
+    </ul>
+  </section>
 
-        <p>
-          Currently, my main focus is frontend development, while I continue
-          expanding my skills into
-          <strong>
-            JavaScript, PHP, backend development, and databases
-          </strong>
-          to eventually build more complete and functional web applications.
-        </p>
 
-      </section>
+  <section>
+    <h4>Design Approach</h4>
+
+    <p>
+      I often begin with a <strong>visual concept</strong> before implementing
+      a website. I use visual and motion design to explore layouts,
+      interactions, and animations, then translate those concepts into
+      functional web interfaces.
+    </p>
+  </section>
+
+
+  <section>
+    <h4>Tools</h4>
+
+    <ul>
+      <li><strong>Acode:</strong> web development</li>
+      <li><strong>Alight Motion:</strong> visual concepts and motion design</li>
+      <li><strong>GitHub:</strong> project management and version control</li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h4>Experience</h4>
+
+    <p>
+      I have built and deployed my own websites, maintained projects through
+      GitHub, and developed visual concepts alongside their implementation.
+    </p>
+  </section>
+
+
+  <section>
+    <h4>Currently Learning</h4>
+
+    <p>
+      My current focus is frontend development while expanding into
+      <strong>JavaScript, PHP, backend development, and databases</strong>
+      to eventually build more complete and functional web applications.
+    </p>
+  </section>
+
+</section>
 
     </article>
 

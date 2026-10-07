@@ -585,7 +585,7 @@ img {
   justify-content: flex-end;
   padding: 7px 20px;
   margin-left: auto;
-  marg
+  margin-right: 0;
 }
 
 .input-submit i {

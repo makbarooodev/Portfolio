@@ -305,7 +305,9 @@ Send
 
         if (page === "project") {
             main.innerHTML = `
-<section></section>
+<section>
+
+</section>
             `;
         }
     });

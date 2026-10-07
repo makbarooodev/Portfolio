@@ -521,6 +521,7 @@ img {
 
 .input-critics .input-option {
   padding: 10px 20px;
+  text-align: center;
   color: white;
   appearance: none;
   border-radius: 10px;

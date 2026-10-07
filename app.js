@@ -307,7 +307,7 @@ Send
             main.innerHTML = `
 <section>
 
-<divv></div>
+<div></div>
 
 </section>
             `;

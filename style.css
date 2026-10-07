@@ -534,7 +534,7 @@ img {
   background-color: hwb(0 100% 0%);
   color: black;
   outline: none;
-  transform: ;
+  transform: 1.05;
 }
 
 .input-critics .input-name {

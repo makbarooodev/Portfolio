@@ -6,7 +6,7 @@ const projects = [
   "https://makbarooo.pages.dev"
 ];
 
-const API_KEY = "ubx_wf5f2fJ3ZWQPeMVG";
+const API_KEY = "ubx_MEJHUwo4TzIMs3kB";
 
 const imgs = document.querySelectorAll(".preview");
 

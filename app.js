@@ -304,7 +304,7 @@ Send
         }
 
         if (page === "project") {
-            main.innerHTML = "<h1>Home</h1>";
+            main.innerHTML = "";
         }
     });
 });

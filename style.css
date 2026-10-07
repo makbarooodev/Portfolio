@@ -581,11 +581,12 @@ img {
   color: hwb(0 100% 0%);
   background: transparent;
   font-size: 20px;
+  
   padding: 7px 20px;
 }
 
 .input-submit i {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 @media (orientation: landscape) {

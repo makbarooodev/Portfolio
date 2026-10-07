@@ -543,7 +543,7 @@ img {
 }
 
 .input-critics .input-name::placeholder {
-  color: grey;
+  color: hwb(0 78% 22%);
 }
 
 .input-critics .input-message {

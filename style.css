@@ -581,9 +581,10 @@ img {
   color: hwb(0 100% 0%);
   background: transparent;
   font-size: 15px;
-  p
-    adding: 7px 20px;
+  padding: 7px 20px;
 }
+
+.input
 
 @media (orientation: landscape) {
   .box-header img {

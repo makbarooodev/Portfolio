@@ -541,6 +541,8 @@ img {
   background: transparent;
   transition: 0.3s ease;
   font-weight: 700;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .input-critics .input-option:hover {

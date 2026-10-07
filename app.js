@@ -275,7 +275,7 @@ Select a purpose
 type="text" 
 name="name" 
 placeholder="Name" 
-min-length="1"
+min-length="5"
 max-length="20"
 required>
 

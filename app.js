@@ -307,7 +307,7 @@ Send
             main.innerHTML = `
 <section class="box-projects">
 
-<div class="card">
+<div class="card-projects">
 
 
 

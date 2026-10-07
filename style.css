@@ -527,7 +527,7 @@ img {
   border-radius: 10px;
   outline: 1px solid white;
   background: transparent;
-  transition: ;
+  transition: 0.3s ease;
 }
 
 .input-critics .input-option:hover {

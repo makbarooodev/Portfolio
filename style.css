@@ -584,6 +584,7 @@ img {
   display: flex;
   justify-content: flex-end;
   padding: 7px 20px;
+  margin-left: auto;
   marg
 }
 

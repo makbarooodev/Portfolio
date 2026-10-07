@@ -540,6 +540,7 @@ img {
   outline: 1px solid white;
   background: transparent;
   transition: 0.3s ease;
+  font-weight: 700;
 }
 
 .input-critics .input-option:hover {

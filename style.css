@@ -537,7 +537,7 @@ img {
   color: white;
   appearance: none;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 2px solid white;
   background: transparent;
   transition: 0.3s ease;
   font-weight: 700;

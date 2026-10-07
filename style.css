@@ -547,7 +547,7 @@ img {
 
 .input-critics .input-message {
   border: none;
-  border-radius: ;
+  border-radius: 10px;
   text-align: center;
   background: transparent;
   border: 2px solid white;

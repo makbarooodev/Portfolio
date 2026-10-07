@@ -531,7 +531,7 @@ img {
 
 .input-critics .input-name {
   border: none;
-  border-radius: 10px 0;
+  border-radius: 10px;
   border: 2px solid white;
   background: transparent;
   color: white;
@@ -550,7 +550,7 @@ img {
 
 .input-critics .input-message {
   border: none;
-  border-radius: 10px;
+  border-radius: 0 10px 10px 10px;
   text-align: center;
   background: transparent;
   border: 2px solid white;

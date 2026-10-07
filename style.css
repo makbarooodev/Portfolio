@@ -548,7 +548,7 @@ img {
   color: black;
   outline: none;
   transform: scale(1.05);
-  box-shadow: 0 0 10px 
+  box-shadow: 0 0 10px black;
 }
 
 .input-critics .input-name {

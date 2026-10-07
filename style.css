@@ -590,9 +590,9 @@ img {
 }
 
 .input-submit i {
+  position: relative;
   color: black;
-  display: inline-block;
-  vertical-align: bottom;
+  top
 }
 
 @media (orientation: landscape) {

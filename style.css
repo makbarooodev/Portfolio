@@ -529,7 +529,9 @@ img {
   background: transparent;
 }
 
-.input-critics .input-option
+.input-critics .input-option:hover {
+  
+}
 
 .input-critics .input-name {
   border: none;

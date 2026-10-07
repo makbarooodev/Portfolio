@@ -592,6 +592,7 @@ img {
 .input-submit i {
   position: relative;
   color: black;
+  margin-left: 5px;
   top: 2px;
 }
 

@@ -576,7 +576,7 @@ img {
 
 .input-critics .input-submit {
   border: none;
-  border-radius: ;
+  border-radius: 10px;
   box-shadow: 0 0 10px black;
   color: hwb(0 100% 0%);
   background: transparent;

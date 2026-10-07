@@ -273,7 +273,8 @@ Select a purpose
 
 <input class="input-name" 
 type="text" 
-name="name" placeholder="Name" 
+name="name" 
+placeholder="Name" 
 required>
 
 <br>

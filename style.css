@@ -576,7 +576,7 @@ img {
 
 .input-critics .input-submit {
   color: hwb(0 100% 0%);
-  bac
+  background: transparent;
   font-size: 20px;
   padding: 5px 20px;
 }

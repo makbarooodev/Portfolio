@@ -307,7 +307,7 @@ Send
             main.innerHTML = `
 <section>
 
-<></divdiwdi>
+<></div>
 
 </section>
             `;

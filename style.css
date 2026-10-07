@@ -606,7 +606,7 @@ img {
 
 .input-submit i {
   position: relative;
-  color: black;
+  color: hwb(0 100% 0%);
   margin-left: 5px;
   top: 2px;
 }

@@ -592,7 +592,7 @@ img {
 .input-submit i {
   vertical-align: middle;
   color: black;
-  margin-left
+  margin-left: 5px;
 }
 
 @media (orientation: landscape) {

@@ -213,6 +213,7 @@ placeholder="Write your feedback" required>
 
 <button class="input-submit" type="submit">
 Send
+<i class="fa-solid fa-paper-plane"></i>
 </button>
 
 </form>

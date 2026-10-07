@@ -473,7 +473,7 @@ img {
 }
 
 .card-contact {
-  outline: ;
+  outline: 2px solid red;
   min-width: 100%;
   max-width: 100%;
   display: flex;

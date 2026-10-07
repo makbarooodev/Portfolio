@@ -29,9 +29,6 @@ html, body {
   background-color: var(--hitam);
   overflow-x: hidden;
   overflow-y: auto;
-  body {
-  cursor: url("img/circle-foto.png"), auto;
-  }
 }
 
 main {

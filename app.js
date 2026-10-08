@@ -56,64 +56,6 @@ imgs.forEach((img, index) => {
 
 });
 
-const projects = [
-  "https://makbarooo.pages.dev",
-  "https://makbarooo.pages.dev",
-  "https://makbarooo.pages.dev",
-  "https://makbarooo.pages.dev",
-  "https://makbarooo.pages.dev"
-];
-
-const API_KEY = "ubx_MEJHUwo4TzIMs3kB";
-
-const imgs = document.querySelectorAll(".preview");
-
-const CACHE_TIME = 24 * 60 * 60 * 1000; // 24 jam
-
-imgs.forEach((img, index) => {
-
-  const project = projects[index];
-
-  // Setiap project memiliki cache sendiri
-  const cacheKey = `urlbox-preview-${project}`;
-
-  const cached = localStorage.getItem(cacheKey);
-  const now = Date.now();
-
-  // Gunakan screenshot yang sudah ada
-  // selama belum lebih dari 24 jam
-  if (cached) {
-
-    const data = JSON.parse(cached);
-
-    if (now - data.time < CACHE_TIME) {
-      img.src = data.screenshot;
-      return;
-    }
-  }
-
-  // Request screenshot baru
-  const url = encodeURIComponent(project);
-
-  const screenshot =
-    `https://api.urlbox.com/v1/${API_KEY}/png` +
-    `?url=${url}` +
-    `&width=1280` +
-    `&height=720`;
-
-  img.src = screenshot;
-
-  // Simpan screenshot untuk 24 jam
-  localStorage.setItem(
-    cacheKey,
-    JSON.stringify({
-      screenshot: screenshot,
-      time: now
-    })
-  );
-
-});
-
 const links = document.querySelectorAll("nav a");
 const main = document.querySelector("main");
 
@@ -369,7 +311,7 @@ Send
 
 <div class="list-projects">
 
-<img class="img-projects" alt="Preview projects">
+<img class="img-projects" alt="Preview projectd">
 
 </div>
 

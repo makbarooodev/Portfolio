@@ -488,7 +488,7 @@ links.forEach(function(link) {
 
             </div>
             
-            <div class="project-card">
+            <div class="img-projects">
 
             <img
             class="preview"

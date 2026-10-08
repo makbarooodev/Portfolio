@@ -66,7 +66,7 @@ const projects = [
 
 const API_KEY = "ubx_MEJHUwo4TzIMs3kB";
 
-const imgs = document.querySelectorAll(".img-proje");
+const imgs = document.querySelectorAll(".img-projects");
 
 const CACHE_TIME = 24 * 60 * 60 * 1000; // 24 jam
 

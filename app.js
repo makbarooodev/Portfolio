@@ -461,7 +461,7 @@ links.forEach(function(link) {
             <img
             class="preview"
             alt="Project live screenshot"
-          >
+            >
 
           <h4>Profile Website</h4>
 

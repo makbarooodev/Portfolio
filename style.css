@@ -624,6 +624,7 @@ img {
 .list-projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padd
 }
 
 .list-projects img {

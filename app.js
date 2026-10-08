@@ -523,7 +523,7 @@ links.forEach(function(link) {
             <div class="project-card">
 
             <img
-            class="preview"
+            class="img-projects"
             alt="Project live screenshot"
             >
 

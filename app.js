@@ -459,7 +459,7 @@ links.forEach(function(link) {
             <div class="project-card">
 
             <img
-            class=""
+            class="img-projects"
             alt="Project live screenshot"
             >
 

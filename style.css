@@ -619,7 +619,7 @@ img {
 
 .card-projects {
   display: grid;
-  grid-template-columns: repeat(2, );
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .list-projects img {

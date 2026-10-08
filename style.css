@@ -625,7 +625,8 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 20px;
-  justify-items: center;
+  justify-items: center
+  out
 }
 
 .list-projects img {

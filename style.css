@@ -625,7 +625,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   outline: 2px solid white;
-  transform: ;
+  transform: scale();
   overflow-x: hidden;
   overflow-y: auto;
 }

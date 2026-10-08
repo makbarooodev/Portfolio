@@ -8,371 +8,494 @@ const projects = [
 
 const API_KEY = "ubx_MEJHUwo4TzIMs3kB";
 
-const imgs = document.querySelectorAll(".preview");
-
 const CACHE_TIME = 24 * 60 * 60 * 1000; // 24 jam
 
-imgs.forEach((img, index) => {
 
-  const project = projects[index];
+function loadPreview(selector) {
 
-  // Setiap project memiliki cache sendiri
-  const cacheKey = `urlbox-preview-${project}`;
+  const imgs = document.querySelectorAll(selector);
 
-  const cached = localStorage.getItem(cacheKey);
-  const now = Date.now();
+  imgs.forEach((img, index) => {
 
-  // Gunakan screenshot yang sudah ada
-  // selama belum lebih dari 24 jam
-  if (cached) {
+    const project = projects[index];
 
-    const data = JSON.parse(cached);
+    if (!project) return;
 
-    if (now - data.time < CACHE_TIME) {
-      img.src = data.screenshot;
-      return;
+    // Setiap project memiliki cache sendiri
+    const cacheKey = `urlbox-preview-${project}`;
+
+    const cached = localStorage.getItem(cacheKey);
+    const now = Date.now();
+
+    // Gunakan screenshot yang sudah ada
+    // selama belum lebih dari 24 jam
+    if (cached) {
+
+      const data = JSON.parse(cached);
+
+      if (now - data.time < CACHE_TIME) {
+        img.src = data.screenshot;
+        return;
+      }
+
     }
-  }
 
-  // Request screenshot baru
-  const url = encodeURIComponent(project);
+    // Request screenshot baru
+    const url = encodeURIComponent(project);
 
-  const screenshot =
-    `https://api.urlbox.com/v1/${API_KEY}/png` +
-    `?url=${url}` +
-    `&width=1280` +
-    `&height=720`;
+    const screenshot =
+      `https://api.urlbox.com/v1/${API_KEY}/png` +
+      `?url=${url}` +
+      `&width=1280` +
+      `&height=720`;
 
-  img.src = screenshot;
+    img.src = screenshot;
 
-  // Simpan screenshot untuk 24 jam
-  localStorage.setItem(
-    cacheKey,
-    JSON.stringify({
-      screenshot: screenshot,
-      time: now
-    })
-  );
+    // Simpan screenshot untuk 24 jam
+    localStorage.setItem(
+      cacheKey,
+      JSON.stringify({
+        screenshot: screenshot,
+        time: now
+      })
+    );
 
-});
+  });
 
-const projects1 = [
-  "https://makbarooo.pages.dev"
-];
+}
 
-const API_KEY1 = "ubx_MEJHUwo4TzIMs3kB";
 
-const imgs1 = document.querySelectorAll(".img-projects");
+// ========================================
+// SCREENSHOT DI HOME
+// ========================================
 
-const CACHE_TIME1 = 24 * 60 * 60 * 1000; // 24 jam
+loadPreview(".preview");
 
-imgs1.forEach((img, index) => {
 
-  const project1 = projects1[index];
-
-  // Setiap project memiliki cache sendiri
-  const cacheKey1 = `urlbox-preview-${project1}`;
-
-  const cached1 = localStorage.getItem(cacheKey1);
-  const now1 = Date.now();
-
-  // Gunakan screenshot yang sudah ada
-  // selama belum lebih dari 24 jam
-  if (cached1) {
-
-    const data = JSON.parse(cached1);
-
-    if (now1 - data.time < CACHE_TIME1) {
-      img.src = data.screenshot;
-      return;
-    }
-  }
-
-  // Request screenshot baru
-  const url1 = encodeURIComponent(project1);
-
-  const screenshot =
-    `https://api.urlbox.com/v1/${API_KEY1}/png` +
-    `?url=${url1}` +
-    `&width=1280` +
-    `&height=720`;
-
-  img.src = screenshot;
-
-  // Simpan screenshot untuk 24 jam
-  localStorage.setItem(
-    cacheKey1,
-    JSON.stringify({
-      screenshot: screenshot,
-      time: now1
-    })
-  );
-
-});
+// ========================================
+// NAVIGATION
+// ========================================
 
 const links = document.querySelectorAll("nav a");
 const main = document.querySelector("main");
 
 links.forEach(function(link) {
-    link.addEventListener("click", function(event) {
-        event.preventDefault();
-
-        const page = link.dataset.page;
 
-        if (page === "about") {
-            main.innerHTML = `
-  <div class="box-about">
+  link.addEventListener("click", function(event) {
 
-    <a href="index.html" id="to-home">
-      <i class="ph-bold ph-arrow-left"></i>
-      Home
-    </a>
-
-    <img
-      src="/img/bg-profile.jpg"
-      alt="Background-profile"
-      id="bg-image"
-    >
+    event.preventDefault();
 
-    <img
-      src="/img/circle-photo.png"
-      alt="circle-photo"
-      id="photo-profile"
-    >
+    const page = link.dataset.page;
 
-    <div id="circle-bg"></div>
 
-    <article id="about-me">
+    // ========================================
+    // ABOUT
+    // ========================================
 
-      <h2>About Me</h2>
+    if (page === "about") {
 
-      <section class="about-english">
-
-  <header>
-    <h3>Frontend Developer &amp; Web Designer</h3>
+      main.innerHTML = `
 
-    <p>
-      I build
-      <strong>responsive, visually engaging, and interactive websites</strong>
-      with a strong focus on visual design, user experience, and interface details.
-    </p>
-  </header>
+        <div class="box-about">
 
+          <a href="index.html" id="to-home">
+            <i class="ph-bold ph-arrow-left"></i>
+            Home
+          </a>
 
-  <section>
-    <h4>What I Do</h4>
+          <img
+            src="/img/bg-profile.jpg"
+            alt="Background-profile"
+            id="bg-image"
+          >
 
-    <ul>
-      <li>Build responsive websites with HTML and CSS</li>
-      <li>Design clean and engaging web interfaces</li>
-      <li>Create visual concepts and illustrations</li>
-      <li>Develop smooth animations and interactions</li>
-      <li>Adapt interfaces across different screen sizes</li>
-      <li>Test and refine website functionality</li>
-    </ul>
-  </section>
+          <img
+            src="/img/circle-photo.png"
+            alt="circle-photo"
+            id="photo-profile"
+          >
 
+          <div id="circle-bg"></div>
 
-  <section>
-    <h4>Skills</h4>
+          <article id="about-me">
 
-    <ul>
-      <li>
-        <strong>Frontend:</strong>
-        HTML, CSS, responsive layouts
-      </li>
+            <h2>About Me</h2>
 
-      <li>
-        <strong>UI &amp; Visual Design:</strong>
-        interface design, visual composition, illustrations
-      </li>
-
-      <li>
-        <strong>Motion Design:</strong>
-        animations, transitions, interaction concepts
-      </li>
-
-      <li>
-        <strong>Problem Solving:</strong>
-        debugging, code organization, systematic development
-      </li>
-
-      <li>
-        <strong>Deployment &amp; Version Control:</strong>
-        GitHub, website deployment
-      </li>
-    </ul>
-  </section>
+            <section class="about-english">
 
+              <header>
 
-  <section>
-    <h4>Design Approach</h4>
+                <h3>
+                  Frontend Developer &amp; Web Designer
+                </h3>
 
-    <p>
-      I often begin with a <strong>visual concept</strong> before implementing
-      a website. I use visual and motion design to explore layouts,
-      interactions, and animations, then translate those concepts into
-      functional web interfaces.
-    </p>
-  </section>
+                <p>
+                  I build
+                  <strong>
+                    responsive, visually engaging, and interactive websites
+                  </strong>
+                  with a strong focus on visual design, user experience,
+                  and interface details.
+                </p>
 
+              </header>
 
-  <section>
-    <h4>Tools</h4>
 
-    <ul>
-      <li><strong>Acode:</strong> web development</li>
-      <li><strong>Alight Motion:</strong> visual concepts and motion design</li>
-      <li><strong>GitHub:</strong> project management and version control</li>
-    </ul>
-  </section>
+              <section>
 
+                <h4>What I Do</h4>
 
-  <section>
-    <h4>Experience</h4>
+                <ul>
 
-    <p>
-      I have built and deployed my own websites, maintained projects through
-      GitHub, and developed visual concepts alongside their implementation.
-    </p>
-  </section>
+                  <li>
+                    Build responsive websites with HTML and CSS
+                  </li>
 
+                  <li>
+                    Design clean and engaging web interfaces
+                  </li>
 
-  <section>
-    <h4>Currently Learning</h4>
+                  <li>
+                    Create visual concepts and illustrations
+                  </li>
 
-    <p>
-      My current focus is frontend development while expanding into
-      <strong>JavaScript, PHP, backend development, and databases</strong>
-      to eventually build more complete and functional web applications.
-    </p>
-  </section>
+                  <li>
+                    Develop smooth animations and interactions
+                  </li>
 
-</section>
+                  <li>
+                    Adapt interfaces across different screen sizes
+                  </li>
 
-    </article>
+                  <li>
+                    Test and refine website functionality
+                  </li>
 
-    <p class="quote">
-      My goal is not simply to make a website work, but to create an
-      interface that looks intentional, feels responsive, and represents
-      the purpose of the project clearly.
-    </p>
+                </ul>
 
-  </div>
-`;
-        }
-      
-        if (page === "contact") {
-            main.innerHTML = `
-<section class="box-contact">
+              </section>
 
 
-<div class="card-contact">
+              <section>
 
-<div class="list-contact">
+                <h4>Skills</h4>
 
-<h4>Muhammad Akbar Oktabian</h4>
+                <ul>
 
-<a href="#" class="tlp">
-<i class="fa-brands fa-whatsapp"></i>
-+62 838 2738 2781
-</a>
-<br>
-<a href="#" class="git">
-<i class="fa-brands fa-github"></i>
-Makbarooodev
-</a>
-<br>
-<a href="#" class="loc">
-<i class="fa-solid fa-location-dot"></i>
-Bandung, Indonesia.
-</a>
-<br>
-<a href="#" class="mail">
-<i class="fa-regular fa-envelope"></i>
-makbarooo2009@gmail.com
-</a>
+                  <li>
+                    <strong>Frontend:</strong>
+                    HTML, CSS, responsive layouts
+                  </li>
 
-</div>
+                  <li>
+                    <strong>UI &amp; Visual Design:</strong>
+                    interface design, visual composition, illustrations
+                  </li>
 
-<img src="img/pass-photo.jpg" alt="Muhammad Akbar Oktabian in junior high school">
+                  <li>
+                    <strong>Motion Design:</strong>
+                    animations, transitions, interaction concepts
+                  </li>
 
-</div>
+                  <li>
+                    <strong>Problem Solving:</strong>
+                    debugging, code organization, systematic development
+                  </li>
 
+                  <li>
+                    <strong>Deployment &amp; Version Control:</strong>
+                    GitHub, website deployment
+                  </li>
 
+                </ul>
 
-<div class="box-critics">
+              </section>
 
-<h2>Criticism &<br>Suggestions</h2>
 
-<div class="input-critics">
+              <section>
 
-<form>
+                <h4>Design Approach</h4>
 
-<select name="input-type" class="input-option" required>
+                <p>
+                  I often begin with a
+                  <strong>visual concept</strong>
+                  before implementing a website.
+                  I use visual and motion design to explore layouts,
+                  interactions, and animations, then translate those concepts
+                  into functional web interfaces.
+                </p>
 
-<option value="" disabled selected>
-Select a purpose
-</option>
+              </section>
 
-<option value="wa"><i class="fa-brands fa-whatsapp"></i>WhatsApp</option>
-<option value="mail">Email</option>
-<option value="sms">SMS</option>
-<option value="dis">Discord</option>
-<option value="ig">Instagram</option>
 
-</select>
+              <section>
 
-<br>
+                <h4>Tools</h4>
 
-<input class="input-name" 
-type="text" 
-name="name" 
-placeholder="Name" 
-min-length="3"
-max-length="20"
-required>
+                <ul>
 
-<br>
+                  <li>
+                    <strong>Acode:</strong>
+                    web development
+                  </li>
 
-<textarea 
-class="input-message" 
-placeholder="Write your feedback" required>
-</textarea>
+                  <li>
+                    <strong>Alight Motion:</strong>
+                    visual concepts and motion design
+                  </li>
 
-<br>
+                  <li>
+                    <strong>GitHub:</strong>
+                    project management and version control
+                  </li>
 
-<button class="input-submit" type="submit">
-Send
-<i class="ph-fill ph-paper-plane-right"></i>
-</button>
+                </ul>
 
-</form>
+              </section>
 
-</div>
 
-</div>
+              <section>
 
-</section>
-            `;
-        }
+                <h4>Experience</h4>
 
-        if (page === "project") {
-            main.innerHTML = `
-<section class="box-projects">
+                <p>
+                  I have built and deployed my own websites,
+                  maintained projects through GitHub,
+                  and developed visual concepts alongside their implementation.
+                </p>
 
-<div class="card-projects">
+              </section>
 
-<div class="list-projects">
 
-<img class="img-projects" alt="Preview projects">
+              <section>
 
-</div>
+                <h4>Currently Learning</h4>
 
-</div>
+                <p>
+                  My current focus is frontend development while expanding into
+                  <strong>
+                    JavaScript, PHP, backend development, and databases
+                  </strong>
+                  to eventually build more complete and functional web applications.
+                </p>
 
-</section>
-            `; loadPreview(".img-projects");
-        }
-    });
+              </section>
+
+            </section>
+
+          </article>
+
+          <p class="quote">
+            My goal is not simply to make a website work, but to create an
+            interface that looks intentional, feels responsive, and represents
+            the purpose of the project clearly.
+          </p>
+
+        </div>
+
+      `;
+
+    }
+
+
+    // ========================================
+    // CONTACT
+    // ========================================
+
+    if (page === "contact") {
+
+      main.innerHTML = `
+
+        <section class="box-contact">
+
+          <div class="card-contact">
+
+            <div class="list-contact">
+
+              <h4>
+                Muhammad Akbar Oktabian
+              </h4>
+
+              <a href="#" class="tlp">
+                <i class="fa-brands fa-whatsapp"></i>
+                +62 838 2738 2781
+              </a>
+
+              <br>
+
+              <a href="#" class="git">
+                <i class="fa-brands fa-github"></i>
+                Makbarooodev
+              </a>
+
+              <br>
+
+              <a href="#" class="loc">
+                <i class="fa-solid fa-location-dot"></i>
+                Bandung, Indonesia.
+              </a>
+
+              <br>
+
+              <a href="#" class="mail">
+                <i class="fa-regular fa-envelope"></i>
+                makbarooo2009@gmail.com
+              </a>
+
+            </div>
+
+            <img
+              src="img/pass-photo.jpg"
+              alt="Muhammad Akbar Oktabian in junior high school"
+            >
+
+          </div>
+
+
+          <div class="box-critics">
+
+            <h2>
+              Criticism &<br>
+              Suggestions
+            </h2>
+
+            <div class="input-critics">
+
+              <form>
+
+                <select
+                  name="input-type"
+                  class="input-option"
+                  required
+                >
+
+                  <option
+                    value=""
+                    disabled
+                    selected
+                  >
+                    Select a purpose
+                  </option>
+
+                  <option value="wa">
+                    WhatsApp
+                  </option>
+
+                  <option value="mail">
+                    Email
+                  </option>
+
+                  <option value="sms">
+                    SMS
+                  </option>
+
+                  <option value="dis">
+                    Discord
+                  </option>
+
+                  <option value="ig">
+                    Instagram
+                  </option>
+
+                </select>
+
+                <br>
+
+                <input
+                  class="input-name"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  minlength="3"
+                  maxlength="20"
+                  required
+                >
+
+                <br>
+
+                <textarea
+                  class="input-message"
+                  placeholder="Write your feedback"
+                  required
+                ></textarea>
+
+                <br>
+
+                <button
+                  class="input-submit"
+                  type="submit"
+                >
+                  Send
+                  <i class="ph-fill ph-paper-plane-right"></i>
+                </button>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </section>
+
+      `;
+
+    }
+
+
+    // ========================================
+    // PROJECT
+    // ========================================
+
+    if (page === "project") {
+
+      main.innerHTML = `
+
+        <section class="box-projects">
+
+          <div class="card-projects">
+
+            <div class="list-projects">
+
+              <img
+                class="img-projects"
+                alt="Preview project"
+              >
+
+              <img
+                class="img-projects"
+                alt="Preview project"
+              >
+
+              <img
+                class="img-projects"
+                alt="Preview project"
+              >
+
+              <img
+                class="img-projects"
+                alt="Preview project"
+              >
+
+              <img
+                class="img-projects"
+                alt="Preview project"
+              >
+
+            </div>
+
+          </div>
+
+        </section>
+
+      `;
+
+
+      // PENTING:
+      // Jalankan setelah HTML Project dibuat
+      loadPreview(".img-projects");
+
+    }
+
+  });
+
 });

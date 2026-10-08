@@ -56,7 +56,63 @@ imgs.forEach((img, index) => {
 
 });
 
+const projects1 = [
+  "https://makbarooo.pages.dev",
+  "https://makbarooo.pages.dev",
+  "https://makbarooo.pages.dev",
+  "https://makbarooo.pages.dev",
+  "https://makbarooo.pages.dev"
+];
 
+const API_KEY1 = "ubx_MEJHUwo4TzIMs3kB";
+
+const imgs1 = document.querySelectorAll(".img-projects");
+
+const CACHE_TIME1 = 24 * 60 * 60 * 1000; // 24 jam
+
+imgs.forEach((img, index) => {
+
+  const project1 = projects1[index];
+
+  // Setiap project memiliki cache sendiri
+  const cacheKey1 = `urlbox-preview-${project1}`;
+
+  const cached1 = localStorage.getItem(cacheKey1);
+  const now1 = Date.now();
+
+  // Gunakan screenshot yang sudah ada
+  // selama belum lebih dari 24 jam
+  if (cached) {
+
+    const data = JSON.parse(cached1);
+
+    if (now1 - data.time < CACHE_TIME1) {
+      img.src = data.screenshot;
+      return;
+    }
+  }
+
+  // Request screenshot baru
+  const url1 = encodeURIComponent(project1);
+
+  const screenshot =
+    `https://api.urlbox.com/v1/${API_KEY1}/png` +
+    `?url=${url}` +
+    `&width=1280` +
+    `&height=720`;
+
+  img.src = screenshot;
+
+  // Simpan screenshot untuk 24 jam
+  localStorage.setItem(
+    cacheKey1,
+    JSON.stringify({
+      screenshot: screenshot,
+      time: now
+    })
+  );
+
+});
 
 const links = document.querySelectorAll("nav a");
 const main = document.querySelector("main");

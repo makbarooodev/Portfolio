@@ -623,7 +623,7 @@ img {
 
 .list-projects {
   display: grid;
-  grid-template-columns: repeat(2, fr);
+  grid-template-columns: repeat(2, 50fr);
 }
 
 .list-projects img {

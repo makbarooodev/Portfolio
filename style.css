@@ -618,7 +618,7 @@ img {
 }
 
 .list-projects img {
-  width: 80;
+  width: 80%;
 }
 
 @media (orientation: landscape) {

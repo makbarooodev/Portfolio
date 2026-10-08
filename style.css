@@ -618,7 +618,7 @@ img {
 }
 
 .card-projects {
-  display: ;
+  display: grid;
 }
 
 .list-projects img {

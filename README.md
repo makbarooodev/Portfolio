@@ -15,7 +15,7 @@ Currently exploring HTML, CSS, and JavaScript while building projects to strengt
 
 ## Project
 
-![Website Preview](https://api.urlbox.com/v1/ubx_MEJHUwo4TzIMs3kB/png?url=${url}&width=1280&height=720)
+![Website Preview](https://api.urlbox.com/v1/ubx_MEJHUwo4TzIMs3kB/png?url=https://makbarooo.pages.dev&width=1280&height=720)
 
 A personal portfolio website showcasing my profile, projects, learning journey, and experiments in web development.
 

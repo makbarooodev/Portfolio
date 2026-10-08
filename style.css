@@ -622,7 +622,7 @@ img {
 
 .list-projects {
   display: grid;
-  grid-template-columns: repeat(2, 1f);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   outline: 2px solid white;
   overflow-x: auto;

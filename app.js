@@ -456,12 +456,12 @@ links.forEach(function(link) {
 
             <div class="list-projects">
 
-            ject live screenshot"
-            ><div class="project-card">
+            <div class="project-card">
 
             <img
             class="preview"
-            alt="Pro
+            alt="Project live screenshot"
+            >
 
             <h4>Profile Website</h4>
 

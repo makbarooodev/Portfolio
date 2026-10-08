@@ -617,7 +617,9 @@ img {
   top: 2px;
 }
 
-.list-projects img 
+.list-projects img {
+  
+}
 
 @media (orientation: landscape) {
   .box-header img {

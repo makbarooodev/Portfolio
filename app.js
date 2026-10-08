@@ -293,7 +293,7 @@ Send
 <i class="ph-fill ph-paper-plane-right"></i>
 </button>
 
-</form>
+</form>q
 
 </div>
 

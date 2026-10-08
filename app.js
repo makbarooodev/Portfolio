@@ -70,7 +70,7 @@ const imgs1 = document.querySelectorAll(".img-projects");
 
 const CACHE_TIME1 = 24 * 60 * 60 * 1000; // 24 jam
 
-imgs.forEach((img, index) => {
+imgs1.forEach((img, index) => {
 
   const project1 = projects1[index];
 

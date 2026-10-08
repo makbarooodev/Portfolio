@@ -97,7 +97,7 @@ imgs1.forEach((img, index) => {
 
   const screenshot =
     `https://api.urlbox.com/v1/${API_KEY1}/png` +
-    `?url=${url}` +
+    `?url=${url1}` +
     `&width=1280` +
     `&height=720`;
 

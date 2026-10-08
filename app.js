@@ -376,7 +376,7 @@ Send
 </div>
 
 </section>
-            `;
+            `; loadPreview(".img-projects");
         }
     });
 });

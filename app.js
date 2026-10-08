@@ -82,7 +82,7 @@ imgs1.forEach((img, index) => {
 
   // Gunakan screenshot yang sudah ada
   // selama belum lebih dari 24 jam
-  if (cached) {
+  if (cached1) {
 
     const data = JSON.parse(cached1);
 

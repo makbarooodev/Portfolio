@@ -311,7 +311,7 @@ Send
 
 <div class="list-projects">
 
-<img class="img-projects">
+<img class="img-projects" alt >
 
 </div>
 

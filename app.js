@@ -464,8 +464,8 @@ links.forEach(function(link) {
               <img
                 class="img-projects"
                 alt="Preview project"
-              >
-
+              
+>
               <img
                 class="img-projects"
                 alt="Preview project"

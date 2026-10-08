@@ -471,6 +471,66 @@ links.forEach(function(link) {
             </p>
 
             </div>
+            <div class="project-card">
+
+            <img
+            class="preview"
+            alt="Project live screenshot"
+            >
+
+            <h4>Profile Website</h4>
+
+            <p>
+            <span>HTML & CSS</span>
+            <span>In process</span>
+            </p>
+
+            </div>
+            <div class="project-card">
+
+            <img
+            class="preview"
+            alt="Project live screenshot"
+            >
+
+            <h4>Profile Website</h4>
+
+            <p>
+            <span>HTML & CSS</span>
+            <span>In process</span>
+            </p>
+
+            </div>
+            <div class="project-card">
+
+            <img
+            class="preview"
+            alt="Project live screenshot"
+            >
+
+            <h4>Profile Website</h4>
+
+            <p>
+            <span>HTML & CSS</span>
+            <span>In process</span>
+            </p>
+
+            </div>
+            <div class="project-card">
+
+            <img
+            class="preview"
+            alt="Project live screenshot"
+            >
+
+            <h4>Profile Website</h4>
+
+            <p>
+            <span>HTML & CSS</span>
+            <span>In process</span>
+            </p>
+
+            </div>
               
             </div>
 

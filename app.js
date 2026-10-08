@@ -56,6 +56,8 @@ imgs.forEach((img, index) => {
 
 });
 
+
+
 const links = document.querySelectorAll("nav a");
 const main = document.querySelector("main");
 

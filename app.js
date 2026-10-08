@@ -456,31 +456,7 @@ links.forEach(function(link) {
 
             <div class="list-projects">
 
-              <img
-                class="img-projects"
-                alt="Preview project"
-              >
-
-              <img
-                class="img-projects"
-                alt="Preview project"
               
->
-              <img
-                class="img-projects"
-                alt="Preview project"
-              >
-
-              <img
-                class="img-projects"
-                alt="Preview project"
-              >
-
-              <img
-                class="img-projects"
-                alt="Preview project"
-              >
-
             </div>
 
           </div>

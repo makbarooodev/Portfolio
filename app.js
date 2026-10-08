@@ -459,7 +459,7 @@ links.forEach(function(link) {
             <div class="project-card">
 
             <img
-            class="img-projects"
+            class=""
             alt="Project live screenshot"
             >
 
@@ -472,7 +472,7 @@ links.forEach(function(link) {
 
             </div>
             
-            <div class="img-projects">
+            <div class="project-card">
 
             <img
             class="preview"
@@ -488,7 +488,7 @@ links.forEach(function(link) {
 
             </div>
             
-            <div class="img-projects">
+            <div class="project-card">
 
             <img
             class="preview"
@@ -504,7 +504,7 @@ links.forEach(function(link) {
 
             </div>
             
-            <div class="img-projects">
+            <div class="project-card">
 
             <img
             class="preview"
@@ -520,7 +520,7 @@ links.forEach(function(link) {
 
             </div>
             
-            <div class="img-projects">
+            <div class="project-card">
 
             <img
             class="preview"

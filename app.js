@@ -274,7 +274,7 @@ Select a purpose
 <input class="input-name" 
 type="text" 
 name="name" 
-placeholder="Name"
+placeholder="Name" 
 min-length="3"
 max-length="20"
 required>
@@ -293,7 +293,7 @@ Send
 <i class="ph-fill ph-paper-plane-right"></i>
 </button>
 
-</form>q
+</form>
 
 </div>
 
@@ -309,7 +309,7 @@ Send
 
 <div class="card-projects">
 
-<div class=""></div>
+<div class=></div>
 
 </div>
 

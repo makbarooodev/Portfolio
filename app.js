@@ -470,7 +470,7 @@ links.forEach(function(link) {
             <span>In process</span>
             </p>
 
-        </div>
+            </div>
               
             </div>
 

@@ -468,7 +468,7 @@ links.forEach(function(link) {
             <p>
             <span>HTML & CSS</span>
             <span>In process</span>
-          </p>
+            </p>
 
         </div>
               

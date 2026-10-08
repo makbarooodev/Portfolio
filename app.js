@@ -108,7 +108,7 @@ imgs1.forEach((img, index) => {
     cacheKey1,
     JSON.stringify({
       screenshot: screenshot,
-      time: now
+      time: now1
     })
   );
 

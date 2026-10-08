@@ -58,9 +58,6 @@ imgs.forEach((img, index) => {
 
 const projects1 = [
   "https://makbarooo.pages.dev",
-  "https://makbarooo.pages.dev",
-  "https://makbarooo.pages.dev",
-  "https://makbarooo.pages.dev",
   "https://makbarooo.pages.dev"
 ];
 

@@ -630,7 +630,7 @@ img {
 }
 
 .list-projects img {
-  box-shadow: 0 0 ;
+  box-shadow: 0 0 10px;
   width: 95%;
   height: auto;
 }

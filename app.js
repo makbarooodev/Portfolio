@@ -4,6 +4,7 @@ const projects = [
   "https://makbarooo.pages.dev",
   "https://makbarooo.pages.dev",
   "https://makbarooo.pages.dev"
+  "https://makbarooo.pages.dev"
 ];
 
 const API_KEY = "ubx_MEJHUwo4TzIMs3kB";
